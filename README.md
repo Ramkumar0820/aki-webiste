@@ -1,30 +1,68 @@
-# Free eCommerce Template for Next.js - NextMerce
+# 🛒 Next.js eCommerce
 
-The free Next.js eCommerce template is a lite version of the NextMerce Next.js eCommerce boilerplate, designed to streamline the launch and management of your online store.
+A modern **eCommerce storefront** built with **Next.js 15, React 18, and TailwindCSS**.  
+This project provides a responsive and SEO-friendly frontend for an online store, including product listing, cart, and checkout pages.
 
-![NextMerce](https://github.com/user-attachments/assets/57155689-a756-4222-8af7-134e556acae2)
+---
 
+## 🚀 Features
+- 🏬 **Product Catalog** with categories and variants
+- 🛒 **Shopping Cart** with add/remove/update functionality
+- 💳 **Checkout Page** (UI only; backend/API integration optional)
+- 🌍 **SEO Optimized**
+- 🎨 **Styled with TailwindCSS**
+- ⚡ **Modular & Clean Architecture**
+- 📱 **Responsive Design** (mobile, tablet, desktop)
 
-While NextMerce Pro features advanced functionalities, seamless integration, and customizable options, providing all the essential tools needed to build and expand your business, the lite version offers a basic Next.js template specifically crafted for eCommerce websites. Both versions ensure superior performance and flexibility, all powered by Next.js.
+---
 
-### NextMerce Free VS NextMerce Pro
+## 🛠 Tech Stack
+- **Framework:** Next.js 15
+- **Frontend:** React 18
+- **Styling:** TailwindCSS
+- **Routing & State:** React + Next.js built-in routing
 
-| ✨ Features                         | 🎁 NextMerce Free                 | 🔥 NextMerce Pro                        |
-|----------------------------------|--------------------------------|--------------------------------------|
-| Next.js Pages                    | Static                         | Dynamic Boilerplate Template         |
-| Components                       | Limited                        | All According to Demo                |
-| eCommerce Functionality          | Included                       | Included                             |
-| Integrations (DB, Auth, etc.)    | Not Included                   | Included                             |
-| Community Support                | Included                       | Included                             |
-| Premium Email Support            | Not Included                   | Included                             |
-| Lifetime Free Updates            | Included                       | Included                             |
+---
 
+## 📂 Folder Structure
 
-#### [🚀 Live Demo](https://demo.nextmerce.com/)
+```
+nextjs-ecommerce/
+├── src/
+│ ├── app/ # Next.js App Router pages/components
+│ ├── components/ # Reusable UI components
+│ ├── styles/ # TailwindCSS + global styles
+│ └── lib/ # Helper functions
+├── public/ # Images, icons, assets
+├── package.json
+└── README.md
 
-#### [🌐 Visit Website](https://nextmerce.com/)
+```
 
-## Update Logs
+---
 
-Version 0.1.2 - [Mar 16, 2026]
-- Update Next.js, React, and React DOM dependencies, add baseline-browser-mapping
+## ⚡ Getting Started
+1. **Clone the repository**
+```bash
+git clone https://github.com/devjanar/nextjs-ecommerce.git
+cd nextjs-ecommerce
+
+    Install dependencies
+
+npm install
+
+    Run the development server
+
+npm run dev
+
+    Open the app in your browser
+
+http://localhost:3000
+
+🎯 Goals
+
+    Provide a ready-to-use eCommerce frontend template
+
+    Clean, modular code for easy customization
+
+    Designed for integration with any backend (REST API, GraphQL, or custom)
