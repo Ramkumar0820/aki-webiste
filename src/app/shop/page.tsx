@@ -28,7 +28,7 @@ import { FiSliders } from "react-icons/fi";
 
 import ProductCard from "@/components/common/ProductCard";
 
-import { productsData } from "@/data/products";
+import { allProducts } from "@/data/products";
 
 const PRODUCTS_PER_PAGE = 6;
 
@@ -52,7 +52,7 @@ export default function ShopPage() {
     useState(1);
 
   // FILTER MAIN CATEGORY
-  let filteredProducts = productsData.filter(
+  let filteredProducts = allProducts.filter(
     (item) => item.mainCategory === type
   );
 
@@ -82,7 +82,7 @@ export default function ShopPage() {
     "all",
     ...Array.from(
       new Set(
-        productsData
+        allProducts
           .filter(
             (item) =>
               item.mainCategory === type
