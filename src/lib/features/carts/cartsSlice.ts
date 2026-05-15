@@ -8,13 +8,17 @@ const calcAdjustedTotalPrice = (
   data: CartItem,
   quantity?: number
 ): number => {
-  return (
-    (totalPrice + data.discount.percentage > 0
-      ? Math.round(data.price - (data.price * data.discount.percentage) / 100)
-      : data.discount.amount > 0
-      ? Math.round(data.price - data.discount.amount)
-      : data.price) * (quantity ? quantity : data.quantity)
-  );
+  const qty = quantity ?? data.quantity;
+  const price = data.price;
+  const discount = data.discount;
+
+  if (discount?.percentage && discount.percentage > 0) {
+    return Math.round(price - (price * discount.percentage) / 100) * qty;
+  } else if (discount?.amount && discount.amount > 0) {
+    return Math.round(price - discount.amount) * qty;
+  } else {
+    return price * qty;
+  }
 };
 
 export type RemoveCartItem = {
@@ -28,7 +32,7 @@ export type CartItem = {
   srcUrl: string;
   price: number;
   attributes: string[];
-  discount: Discount;
+  discount?: Discount;
   quantity: number;
 };
 
