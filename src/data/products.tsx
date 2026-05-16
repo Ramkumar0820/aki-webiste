@@ -728,7 +728,222 @@ export const woodenTrophyData = [
 
 ];
 
+export const giftData = [
+  {
+    id: 301,
+    title: "Romantic Illustration Acrylic Standee",
+    srcUrl: "/images/gifts/gift-1.webp",
+    gallery: [
+      "/images/gifts/gift-1.webp",
+    ],
+    description:
+      "An elegant, custom-cut acrylic standee displaying a stunning romantic couple illustration. Standing securely on a layered dark wooden base, it adds a touch of artistic charm to any tabletop or bedside drawer.",
+    price: 399,
+    rating: 4.6,
+    mainCategory: "gifts",
+    subCategory: "standees",
+    specifications: [
+      {
+        label: "Material",
+        value: "Clear Acrylic & Tiered Wooden Base",
+      },
+      {
+        label: "Design",
+        value: "Contour-Cut Couple Illustration with Gold Accents",
+      },
+      {
+        label: "Usage",
+        value: "Home Decor, Wedding & Anniversary Gift",
+      },
+    ],
+    faqs: [
+      {
+        question: "Does this product light up?",
+        answer: "This specific model is a non-illuminated decorative standee designed to look beautiful in natural room lighting.",
+      },
+    ],
+  },
+  {
+    id: 302,
+    title: "Personalized Photo Print Acrylic LED Lamp",
+    srcUrl: "/images/gifts/gift-2.webp",
+    gallery: [
+      "/images/gifts/gift-2.webp",
+    ],
+    description:
+      "Capture your favorite memories forever with this circular acrylic LED plaque. Featuring a high-definition, vibrant photo print alongside custom name engraving and a modern illuminated base.",
+    price: 699,
+    rating: 4.9,
+    mainCategory: "gifts",
+    subCategory: "led-lamps",
+    specifications: [
+      {
+        label: "Material",
+        value: "Premium Acrylic & Sleek Composite Base",
+      },
+      {
+        label: "Print Type",
+        value: "High-Definition UV Photo Printing",
+      },
+      {
+        label: "Customization",
+        value: "Color Photo, Names & Milestone Date",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is the photo scratch-resistant?",
+        answer: "Yes, the UV printing technology ensures a durable, long-lasting, and scratch-resistant finish.",
+      },
+    ],
+  },
+  {
+    id: 303,
+    title: "Customized Heart Acrylic LED Lamp",
+    srcUrl: "/images/gifts/gift-3.jpg",
+    gallery: [
+      "/images/gifts/gift-3.jpg",
+      "/images/gifts/gift-3.jpg"
+    ],
+    description:
+      "A beautiful heart-shaped acrylic LED night light, custom-engraved with names and important milestones. Emits a warm, gentle glow over a premium wooden base, making it a perfect anniversary or wedding keepsake.",
+    price: 499,
+    rating: 4.8,
+    mainCategory: "gifts",
+    subCategory: "led-lamps",
+    specifications: [
+      {
+        label: "Material",
+        value: "High-Grade Acrylic & Natural Wood Base",
+      },
+      {
+        label: "Light Type",
+        value: "Warm White LED",
+      },
+      {
+        label: "Customization",
+        value: "Laser Engraved Names & Date",
+      },
+    ],
+    faqs: [
+      {
+        question: "How is the lamp powered?",
+        answer: "It comes with a standard USB cable attached to the wooden base that can be plugged into any adapter or power bank.",
+      },
+    ],
+  },
+
+];
+
+export const photographyData = [
+  {
+    id: 401,
+    title: "Pre-Wedding & Couple Portraiture",
+    srcUrl: "/images/photography/ph-1.jpg",
+    gallery: [
+      "/images/photography/ph-1.jpg",
+      "/images/photography/ph-1.jpg",
+    ],
+    description:
+      "Capturing raw emotions, intimate glances, and your unique love story through cinematic outdoor and indoor pre-wedding sessions tailored to your style.",
+    price: 15000,
+    rating: 4.9,
+    mainCategory: "photography",
+    subCategory: "portrait",
+    specifications: [
+      {
+        label: "Session Duration",
+        value: "4 to 6 Hours",
+      },
+      {
+        label: "Deliverables",
+        value: "50+ Fully Edited High-Res Images & 1 Teaser Video",
+      },
+      {
+        label: "Location",
+        value: "Outdoor Scenic Spots or Specialized Studio Sets",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do you provide outfits and makeup artists?",
+        answer: "We offer styling consultation guides, but outfits and professional makeup artists can be added as an optional premium add-on.",
+      },
+    ],
+  },
+  {
+    id: 402,
+    title: "Candid Wedding Photography",
+    srcUrl: "/images/photography/ph-2.jpg",
+    gallery: [
+      "/images/photography/ph-2.jpg",
+    ],
+    description:
+      "Documenting the spontaneous laughter, joyful tears, and vibrant cultural rituals of your big day without making you feel posed or restricted.",
+    price: 35000,
+    rating: 5.0,
+    mainCategory: "photography",
+    subCategory: "wedding",
+    specifications: [
+      {
+        label: "Coverage",
+        value: "Full-Day Event Coverage (Up to 10 Hours)",
+      },
+      {
+        label: "Team Size",
+        value: "2 Senior Candid Photographers",
+      },
+      {
+        label: "Deliverables",
+        value: "Online Digital Gallery + Premium Hardcover Photo Album",
+      },
+    ],
+    faqs: [
+      {
+        question: "How long does it take to get the edited pictures?",
+        answer: "Sneak peeks are shared within 3-5 days, and the final beautifully color-graded gallery is delivered within 4 to 6 weeks.",
+      },
+    ],
+  },
+  {
+    id: 403,
+    title: "Creative Conceptual & Silhouette Photography",
+    srcUrl: "/images/photography/ph-3.webp",
+    gallery: [
+      "/images/photography/ph-3.webp",
+    ],
+    description:
+      "Artistic storytelling utilizing dramatic lighting, shadows, and starry backdrops to craft fine-art frame-worthy portraits of your relationship.",
+    price: 12000,
+    rating: 4.7,
+    mainCategory: "photography",
+    subCategory: "creative",
+    specifications: [
+      {
+        label: "Style",
+        value: "Fine-Art, Cinematic Lighting & Silhouette Art",
+      },
+      {
+        label: "Best Suited For",
+        value: "Anniversaries, Creative Couple Portfolios, and Wall Art Prints",
+      },
+      {
+        label: "Equipment Used",
+        value: "High-End Full-Frame Cameras with Professional Studio Strobes",
+      },
+    ],
+    faqs: [
+      {
+        question: "Can these photos be converted directly into the acrylic LED lamps?",
+        answer: "Absolutely! These high-resolution outputs are perfectly optimized for our custom UV printing and laser-engraving gift products.",
+      },
+    ],
+  },
+];
+
 export const allProducts = [
   ...productsData,
+  ...giftData,
   ...woodenTrophyData,
+  ...photographyData
 ];

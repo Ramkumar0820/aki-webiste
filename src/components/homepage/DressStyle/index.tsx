@@ -30,12 +30,12 @@ const DressStyle = () => {
           <DressStyleCard
             title="Trophy"
             url= "/shop?type=trophy"
-            className="md:max-w-[260px] lg:max-w-[360px] xl:max-w-[407px] h-[190px] bg-[url('/images/dress-style-1.png')]"
+            className="md:max-w-[260px] lg:max-w-[360px] xl:max-w-[407px] h-[190px] bg-[url('/images/trophy-style.jpeg')]"
           />
           <DressStyleCard
             title="Gift"
             url="/shop?type=gift"
-            className="md:max-w-[684px] h-[190px] bg-[url('/images/dress-style-2.png')]"
+            className="md:max-w-[684px] h-[190px] bg-[url('/images/trophy-style-2.jpg')]"
           />
         </motion.div>
         <motion.div
@@ -48,12 +48,12 @@ const DressStyle = () => {
           <DressStyleCard
             title="Frames"
             url="/shop?type=frame"
-            className="md:max-w-[684px] h-[190px] bg-[url('/images/dress-style-3.jpg')]"
+            className="md:max-w-[684px] h-[190px] bg-[url('/images/trophy-style-3.jpg')]"
           />
           <DressStyleCard
             title="Photography"
             url="/shop?type=photography"
-            className="md:max-w-[260px] lg:max-w-[360px] xl:max-w-[407px] h-[190px] bg-[url('/images/dress-style-4.png')]"
+            className="md:max-w-[260px] lg:max-w-[360px] xl:max-w-[407px] h-[190px] bg-[url('/images/trophy-style-4.webp')]"
           />
         </motion.div>
       </section>

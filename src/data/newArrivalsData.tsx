@@ -4,10 +4,14 @@ import { Review } from "@/types/review.types";
 export const newArrivalsData: Product[] = [
   {
     id: 1,
-    title: 'T-shirt with Tape Details',
-    srcUrl: '/images/pic1.png',
-    gallery: ['/images/pic1.png', '/images/pic10.png', '/images/pic11.png'],
-    price: 120,
+    title: 'Custom Heart Acrylic LED Lamp',
+    srcUrl: '/images/gifts/gift-3.jpg',
+    gallery: [
+      '/images/gifts/heart-led-1.png', 
+      '/images/gifts/heart-led-detail-1.png', 
+      '/images/gifts/heart-led-detail-2.png'
+    ],
+    price: 499,
     discount: {
       amount: 0,
       percentage: 0,
@@ -16,10 +20,10 @@ export const newArrivalsData: Product[] = [
   },
   {
     id: 2,
-    title: 'Skinny Fit Jacket',
-    srcUrl: '/images/pic2.jpg',
-    gallery: ['/images/pic2.jpg'],
-    price: 260,
+    title: 'Personalized Photo Print LED Frame',
+    srcUrl: '/images/gifts/gift-2.webp',
+    gallery: ['/images/gifts/gift-2.webp', '/images/gifts/photo-led-detail-1.png', '/images/gifts/photo-led-detail-2.png'],
+    price: 699,
     discount: {
       amount: 0,
       percentage: 20,
@@ -28,10 +32,10 @@ export const newArrivalsData: Product[] = [
   },
   {
     id: 3,
-    title: 'Chechered Shirt',
-    srcUrl: '/images/pic3.png',
-    gallery: ['/images/pic3.png'],
-    price: 180,
+    title: 'Romantic Couple Illustration Standee',
+    srcUrl: '/images/gifts/gift-3.jpg',
+    gallery: ['/images/gifts/gift-3.jpg'],
+    price: 399,
     discount: {
       amount: 0,
       percentage: 0,
@@ -40,10 +44,14 @@ export const newArrivalsData: Product[] = [
   },
   {
     id: 4,
-    title: 'Sleeve Striped T-shirt',
-    srcUrl: '/images/pic4.png',
-    gallery: ['/images/pic4.png', '/images/pic10.png', '/images/pic11.png'],
-    price: 160,
+    title: 'Customized Silhouette Acrylic Trophy',
+    srcUrl: '/images/meru/image3.jpeg',
+    gallery: [
+      '/images/meru/image2.jpg', 
+      '/images/meru/image1.jpg', 
+      '/images/meru/image4.jpg'
+    ],
+    price: 599,
     discount: {
       amount: 0,
       percentage: 30,
@@ -157,46 +165,46 @@ export const relatedProductData: Product[] = [
 export const reviewsData: Review[] = [
   {
     id: 1,
-    user: 'Alex K.',
+    user: 'Karthi K.',
     content:
-      '"Finding products that align with my personal style used to be a challenge until I discovered Fashion.Shop. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”',
+      '"Finding personalized gifts that truly capture a special milestone used to be a challenge until I discovered this shop. Their range of custom acrylic LED lamps and frames is truly remarkable, catering perfectly to anniversaries and special occasions."',
     rating: 5,
-    date: 'August 14, 2023',
+    date: 'March 14, 2025',
   },
   {
     id: 2,
     user: 'Sarah M.',
-    content: `"I'm blown away by the quality and style of the clothes I received from Fashion.Shop. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”`,
+    content: `"I'm blown away by the clarity and quality of the photo frame I received. The UV print is vibrant, and the illuminated base creates a beautiful warm glow. It completely exceeded my expectations as a wedding keepsake!"`,
     rating: 5,
-    date: 'August 15, 2023',
+    date: 'May 15, 2025',
   },
   {
     id: 3,
-    user: 'Ethan R.',
-    content: `"This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt."`,
+    user: 'Raja R.',
+    content: `"This acrylic couple trophy is a must-have for anyone looking for a unique anniversary gift. The minimalistic laser-engraved lettering is crisp, the wooden base feels premium, and you can see the craftsmanship in every single detail."`,
     rating: 5,
-    date: 'August 16, 2023',
+    date: 'August 16, 2025',
   },
   {
     id: 4,
-    user: 'Olivia P.',
-    content: `"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out."`,
+    user: 'John P.',
+    content: `"As someone who values clean, modern design, I absolutely love their customized frames. The heart-shaped acrylic is beautifully cut, flawless, and stands out as a unique piece of art on our bedside table."`,
     rating: 5,
-    date: 'August 17, 2023',
+    date: 'August 17, 2025',
   },
   {
     id: 5,
     user: 'Liam K.',
-    content: `"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion."`,
+    content: `"A perfect fusion of custom photography and elegant decor. The wooden base feels highly durable, and the illuminated silhouette design brings our favorite memories back to life every single night."`,
     rating: 5,
-    date: 'August 18, 2023',
+    date: 'Jan 26, 2026',
   },
   {
     id: 6,
     user: 'Samantha D.',
-    content: `"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."`,
+    content: `"I absolutely love this customized LED award frame! The script font looks elegant and the clear acrylic finish is incredibly smooth. I gifted it to my best friend for her wedding, and it instantly became her favorite keepsake."`,
     rating: 5,
-    date: 'August 19, 2023',
+    date: 'March 19, 2026',
   },
 ];
 
