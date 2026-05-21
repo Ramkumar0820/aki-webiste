@@ -11,51 +11,36 @@ const footerLinksData: FooterLinks[] = [
       {
         id: 11,
         label: "about",
-        url: "#",
-      },
-      {
-        id: 12,
-        label: "features",
-        url: "#",
-      },
-      {
-        id: 13,
-        label: "works",
-        url: "#",
-      },
-      {
-        id: 14,
-        label: "career",
-        url: "#",
+        url: "/about",
       },
     ],
   },
-  // {
-  //   id: 2,
-  //   title: "help",
-  //   children: [
-  //     {
-  //       id: 21,
-  //       label: "customer support",
-  //       url: "#",
-  //     },
-  //     {
-  //       id: 22,
-  //       label: "delivery details",
-  //       url: "#",
-  //     },
-  //     {
-  //       id: 23,
-  //       label: "terms & conditions",
-  //       url: "#",
-  //     },
-  //     {
-  //       id: 24,
-  //       label: "privacy policy",
-  //       url: "#",
-  //     },
-  //   ],
-  // },
+  {
+    id: 2,
+    title: "help",
+    children: [
+      {
+        id: 21,
+        label: "customer support",
+        url: "/contact",
+      },
+      // {
+      //   id: 22,
+      //   label: "delivery details",
+      //   url: "#",
+      // },
+      {
+        id: 23,
+        label: "terms & conditions",
+        url: "/terms",
+      },
+      {
+        id: 24,
+        label: "privacy policy",
+        url: "/privacy",
+      },
+    ],
+  },
   // {
   //   id: 3,
   //   title: "faq",
