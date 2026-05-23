@@ -106,7 +106,7 @@ const TopNavbar = () => {
             ])}
           >
             <div className="flex flex-col justify-center leading-none">
-              <span className="text-lg font-bold tracking-wider text-amber-500 font-sans uppercase">
+              <span className="text-lg font-bold tracking-wider text-black-500 font-sans uppercase">
                 AKi
               </span>
               <span className="text-[9px] tracking-[0.2em] text-zinc-400 uppercase hidden sm:inline">
