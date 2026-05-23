@@ -19,6 +19,38 @@ body {
   }
 }
 
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* GLOBAL SCROLLBAR STYLE */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e5e7eb; /* light gray track */
+  /* border-radius: 8px; */
+}
+
+/* GRADIENT SCROLLBAR (horizontal & vertical) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #6B6B3A, #6B6B3A, #6B6B3A);
+  /* border-radius: 8px; */
+  border: 2px solid #e5e7eb; /* thin light border */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #6B6B3A, #6B6B3A, #6B6B3A);
+  border: 0px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
