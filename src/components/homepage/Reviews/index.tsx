@@ -16,6 +16,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import { useIsClient, useMediaQuery } from "usehooks-ts";
 import ReviewCard from "@/components/common/ReviewCard";
 import { Review } from "@/types/review.types";
+import Autoplay from "embla-carousel-autoplay";
 
 type ReviewsProps = { data: Review[] };
 
@@ -26,10 +27,13 @@ const Reviews = ({ data }: ReviewsProps) => {
   const isDesktop = useMediaQuery("(min-width: 1024px)");
   const isClient = useIsClient();
 
+  // Autoplay plugin — pauses on hover/drag, resumes after
+  const autoplayPlugin = React.useRef(
+    Autoplay({ delay: 3000, stopOnInteraction: false, stopOnMouseEnter: true })
+  );
+
   React.useEffect(() => {
-    if (!api) {
-      return;
-    }
+    if (!api) return;
 
     setCount(api.scrollSnapList().length);
     setCurrent(api.selectedScrollSnap() + 1);
@@ -51,13 +55,15 @@ const Reviews = ({ data }: ReviewsProps) => {
       >
         <Carousel
           setApi={setApi}
+          plugins={[autoplayPlugin.current]}
           opts={{
             align: "center",
             loop: true,
+            dragFree: true, // smooth drag scrolling
           }}
           className="relative w-full mb-6 md:mb-9"
         >
-          <div className="relative flex items-end sm:items-center max-w-frame mx-auto mb-6 md:mb-10 px-4 xl:px-0">
+          <div className="relative flex justify-center items-center max-w-frame mx-auto mb-6 md:mb-10 px-4 xl:px-0">
             <motion.h2
               initial={{ y: "100px", opacity: 0 }}
               whileInView={{ y: "0", opacity: 1 }}
@@ -65,21 +71,29 @@ const Reviews = ({ data }: ReviewsProps) => {
               transition={{ delay: 0.6, duration: 0.6 }}
               className={cn([
                 integralCF.className,
-                "text-[32px] leading-[36px] md:text-5xl capitalize mr-auto",
+                "text-[24px] xl:text-[32px] leading-[36px] capitalize text-center",
               ])}
             >
               OUR HAPPY CUSTOMERS
             </motion.h2>
-            <div className="flex items-center space-x-1 ml-2">
-              <CarouselPrevious variant="ghost" className="text-2xl">
+            {/* <div className="flex items-center space-x-1 ml-2">
+              <CarouselPrevious
+                variant="ghost"
+                className="text-2xl"
+                onClick={() => autoplayPlugin.current.reset()}
+              >
                 <FaArrowLeft />
               </CarouselPrevious>
-              <CarouselNext variant="ghost" className="text-2xl">
+              <CarouselNext
+                variant="ghost"
+                className="text-2xl"
+                onClick={() => autoplayPlugin.current.reset()}
+              >
                 <FaArrowRight />
               </CarouselNext>
-            </div>
+            </div> */}
           </div>
-          <CarouselContent>
+          <CarouselContent className="cursor-grab active:cursor-grabbing">
             {data.map((review, index) => (
               <CarouselItem
                 key={review.id}

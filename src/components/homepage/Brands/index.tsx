@@ -13,34 +13,29 @@ const keywords = [
 
 const Brands = () => {
   return (
-    <div className="bg-black py-6 border-y border-zinc-900 overflow-hidden select-none">
-      {/* Container that hides the horizontal overflow */}
-      <div className="flex w-max items-center">
+    <div className="bg-black py-6 border-y border-zinc-900 overflow-hidden select-none mt-10">
+      {/* Single animated track containing TWO copies — translateX(-50%) lands exactly at the duplicate */}
+      <div className="flex animate-marquee hover:[animation-play-state:paused] whitespace-nowrap w-max items-center gap-16">
         
-        {/* Track 1: First moving group */}
-        <div className="flex animate-marquee whitespace-nowrap gap-16 pr-16 items-center">
-          {keywords.map((text, idx) => (
-            <div key={`track1-${idx}`} className="flex items-center gap-16">
-              <span className="text-xl md:text-2xl font-bold tracking-tight text-zinc-300 hover:text-white transition-colors duration-300 cursor-default">
-                {text}
-              </span>
-              {/* Sleek diamond geometric divider between words */}
-              <span className="w-2 h-2 rotate-45 bg-zinc-700 block" />
-            </div>
-          ))}
-        </div>
+        {/* Copy 1 */}
+        {keywords.map((text, idx) => (
+          <div key={`a-${idx}`} className="flex items-center gap-16">
+            <span className="text-xl md:text-2xl font-bold tracking-tight text-zinc-300 hover:text-white transition-colors duration-300 cursor-default">
+              {text}
+            </span>
+            <span className="w-2 h-2 rotate-45 bg-[#6B6B3A] block shrink-0" />
+          </div>
+        ))}
 
-        {/* Track 2: Exact duplicate track right behind it to make the loop seamless */}
-        <div className="flex animate-marquee whitespace-nowrap gap-16 pr-16 items-center" aria-hidden="true">
-          {keywords.map((text, idx) => (
-            <div key={`track2-${idx}`} className="flex items-center gap-16">
-              <span className="text-xl md:text-2xl font-bold tracking-tight text-zinc-300 hover:text-white transition-colors duration-300 cursor-default">
-                {text}
-              </span>
-              <span className="w-2 h-2 rotate-45 bg-zinc-700 block" />
-            </div>
-          ))}
-        </div>
+        {/* Copy 2 — identical, makes the loop seamless */}
+        {keywords.map((text, idx) => (
+          <div key={`b-${idx}`} className="flex items-center gap-16" aria-hidden="true">
+            <span className="text-xl md:text-2xl font-bold tracking-tight text-zinc-300 hover:text-white transition-colors duration-300 cursor-default">
+              {text}
+            </span>
+            <span className="w-2 h-2 rotate-45 bg-[#6B6B3A] block shrink-0" />
+          </div>
+        ))}
 
       </div>
     </div>

@@ -9,15 +9,15 @@ import * as motion from 'framer-motion/client';
 
 const Header = () => {
   return (
-    <header className='bg-[#F2F0F1] pt-10 md:pt-24 overflow-hidden'>
+    <header className='pt-10 md:pt-24 overflow-hidden'>
       <div className='md:max-w-frame mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
-        <section className='max-w-frame px-4'>
+        <section className='max-w-frame px-6 xl:px-12'>
           <motion.h2
             initial={{ y: '100px', opacity: 0, rotate: 10 }}
             whileInView={{ y: '0', opacity: 1, rotate: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className={cn([integralCF.className, 'text-4xl lg:text-[64px] lg:leading-[64px] mb-5 lg:mb-8'])}
+            className={cn([integralCF.className, 'text-2xl 2xl:text-[60px] xl:text-[52px] lg:text-[44px] md:text-[36px] sm:text-[30px] text-[26px] lg:leading-[64px] mt-10 md:mt-0 mb-5 lg:mb-8'])}
           >
             FIND THE TROPHY THAT REFLECTS YOUR EXCELLENCE
           </motion.h2>
@@ -38,7 +38,7 @@ const Header = () => {
           >
             <Link
               href='/shop'
-              className='w-full md:w-52 mb-5 md:mb-12 inline-block text-center bg-black hover:bg-black/80 transition-all text-white px-14 py-4 rounded-full hover:animate-pulse'
+              className='w-full md:w-52 mb-5 md:mb-12 inline-block text-center bg-[#6B6B3A] hover:bg-black/80 transition-all text-white px-14 py-4 rounded-full hover:animate-pulse'
             >
               Shop Now
             </Link>
@@ -77,7 +77,7 @@ const Header = () => {
           whileInView={{ y: '0', opacity: 1, rotate: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 2.3, duration: 0.8 }}
-          className="relative md:px-4 min-h-[448px] md:min-h-[428px] bg-cover bg-top xl:bg-[center_top_-1.6rem] bg-no-repeat bg-[url('/images/home2.jpg')] md:bg-[url('/images/header-homepage.png')]"
+          className="hidden md:block relative md:px-4 min-h-[448px] md:min-h-[428px] bg-cover bg-top xl:bg-[center_top_-1.6rem] bg-no-repeat bg-[url('/images/home2.jpg')] md:bg-[url('/images/header-homepage.png')]"
         >
           <Image
             priority

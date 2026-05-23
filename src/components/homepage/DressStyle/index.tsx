@@ -6,8 +6,8 @@ import DressStyleCard from "./DressStyleCard";
 
 const DressStyle = () => {
   return (
-    <div className="px-4 xl:px-0">
-      <section className="max-w-frame mx-auto bg-[#F0F0F0] px-6 pb-6 pt-10 md:p-[70px] rounded-[40px] text-center">
+    <div className="px-6 xl:px-0">
+      <section className="max-w-frame mx-auto bg-[#F0F0F0] px-6 pb-6 pt-10 md:p-[30px] rounded-[40px] text-center">
         <motion.h2
           initial={{ y: "100px", opacity: 0 }}
           whileInView={{ y: "0", opacity: 1 }}
@@ -15,7 +15,7 @@ const DressStyle = () => {
           transition={{ duration: 0.6 }}
           className={cn([
             integralCF.className,
-            "text-[32px] leading-[36px] md:text-5xl mb-8 md:mb-14 capitalize",
+            "text-[24px] xl:text-[32px] leading-[36px] capitalize text-center mb-8 md:mb-10",
           ])}
         >
           BROWSE BY 
