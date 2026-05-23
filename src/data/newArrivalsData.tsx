@@ -33,8 +33,8 @@ export const newArrivalsData: Product[] = [
   {
     id: 3,
     title: 'Romantic Couple Illustration Standee',
-    srcUrl: '/images/gifts/gift-3.jpg',
-    gallery: ['/images/gifts/gift-3.jpg'],
+    srcUrl: '/images/gifts/gift-1.webp',
+    gallery: ['/images/gifts/gift-1.webp'],
     price: 399,
     discount: {
       amount: 0,

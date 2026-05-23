@@ -74,11 +74,18 @@ const Footer = () => {
                   "text-[24px] lg:text-[27px] mb-6",
                 ])}
               >
-                innovationghar
+                <div className="flex flex-col justify-center leading-none">
+                  <span className="text-lg font-bold tracking-wider text-black-500 font-sans uppercase">
+                    AKi
+                  </span>
+                  <span className="text-[9px] tracking-[0.2em] text-zinc-400 uppercase hidden sm:inline">
+                    Trophy & Photography
+                  </span>
+                </div>
               </h1>
               <p className="text-black/60 text-sm mb-9">
-                We have clothes that suits your style and which you’re proud to
-                wear. From women to men.
+                We craft elite recognition awards and capture timeless imagery that 
+                honors your legacy. From bespoke corporate trophies to professional photography.
               </p>
               <div className="flex items-center">
                 {socialsData.map((social) => (

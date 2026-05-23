@@ -22,6 +22,7 @@ export type Product = {
   gallery?: string[];
   category?: string;
   subCategory?: string ;
+  description?: string;
   price: number;
   discount?: Discount;
   rating: number;

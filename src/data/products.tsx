@@ -5,12 +5,12 @@ export const productsData = [
   {
     id: 101,
     title: "Gold Metal Trophy Cup Sports Award Corporate Award 1809",
-    srcUrl: "/images/meru/1809.png",
+    srcUrl: "/images/meru/image1.jpg",
 
     gallery: [
-      "/images/meru/1809.png",
-      "/images/meru/1809-2.png",
-      "/images/meru/1809-3.png",
+      "/images/meru/image1.jpg",
+      "/images/meru/image1.jpg",
+      "/images/meru/image1.jpg",
     ],
 
     description:
@@ -20,7 +20,7 @@ export const productsData = [
     rating: 4.8,
 
     mainCategory: "trophy",
-    subCategory: "metal",
+    subCategory: "sports",
 
     specifications: [
       {
@@ -57,11 +57,11 @@ export const productsData = [
 
   {
     id: 102,
-    title: "Gold Metal Award Trophy 274",
-    srcUrl: "/images/meru/274.png",
+    title: "Gold Metal Award Trophy",
+    srcUrl: "/images/meru/image2.jpg",
 
     gallery: [
-      "/images/meru/274.png",
+      "/images/meru/image2.jpg",
     ],
 
     description:
@@ -100,10 +100,10 @@ export const productsData = [
   {
     id: 103,
     title: "Cricket Trophy Award Sports Awards AS 943",
-    srcUrl: "/images/meru/as943.png",
+    srcUrl: "/images/meru/image6.webp",
 
     gallery: [
-      "/images/meru/as943.png",
+      "/images/meru/image6.webp",
     ],
 
     description:
@@ -113,7 +113,7 @@ export const productsData = [
     rating: 4.7,
 
     mainCategory: "trophy",
-    subCategory: "cricket",
+    subCategory: "sports",
 
     specifications: [
       {
@@ -141,11 +141,11 @@ export const productsData = [
 
   {
     id: 104,
-    title: "Gold Trophy Cup Metal Sports Trophies 1063",
-    srcUrl: "/images/meru/1063.png",
+    title: "Gold Trophy Metal Sports Trophies",
+    srcUrl: "/images/meru/image4.jpg",
 
     gallery: [
-      "/images/meru/1063.png",
+      "/images/meru/image4.jpg",
     ],
 
     description:
@@ -181,51 +181,51 @@ export const productsData = [
     ],
   },
 
-  {
-    id: 105,
-    title: "Metal Cup Trophy Awards Recognition X3",
-    srcUrl: "/images/meru/x3.png",
+  // {
+  //   id: 105,
+  //   title: "Metal Cup Trophy Awards Recognition X3",
+  //   srcUrl: "/images/meru/x3.png",
 
-    gallery: [
-      "/images/meru/x3.png",
-    ],
+  //   gallery: [
+  //     "/images/meru/x3.png",
+  //   ],
 
-    description:
-      "Stylish recognition award trophy for sports and achievement ceremonies.",
+  //   description:
+  //     "Stylish recognition award trophy for sports and achievement ceremonies.",
 
-    price: 900,
-    rating: 4.3,
+  //   price: 900,
+  //   rating: 4.3,
 
-    mainCategory: "trophy",
-    subCategory: "recognition",
+  //   mainCategory: "trophy",
+  //   subCategory: "recognition",
 
-    specifications: [
-      {
-        label: "Material",
-        value: "Metal",
-      },
-      {
-        label: "Purpose",
-        value: "Recognition Awards",
-      },
-    ],
+  //   specifications: [
+  //     {
+  //       label: "Material",
+  //       value: "Metal",
+  //     },
+  //     {
+  //       label: "Purpose",
+  //       value: "Recognition Awards",
+  //     },
+  //   ],
 
-    faqs: [
-      {
-        question: "Can I order in quantity?",
-        answer:
-          "Yes, bulk quantity orders are accepted.",
-      },
-    ],
-  },
+  //   faqs: [
+  //     {
+  //       question: "Can I order in quantity?",
+  //       answer:
+  //         "Yes, bulk quantity orders are accepted.",
+  //     },
+  //   ],
+  // },
 
   {
     id: 106,
-    title: "Gold Metal Trophy Cup Award 133",
-    srcUrl: "/images/meru/133.png",
+    title: "Gold Metal Trophy Cup Award 2507",
+    srcUrl: "/images/meru/2507.jpg",
 
     gallery: [
-      "/images/meru/133.png",
+      "/images/meru/2507.jpg",
     ],
 
     description:
@@ -260,10 +260,10 @@ export const productsData = [
   {
     id: 107,
     title: "Metal Trophy Award Cup H131",
-    srcUrl: "/images/meru/h131.png",
+    srcUrl: "/images/meru/image1.jpg",
 
     gallery: [
-      "/images/meru/h131.png",
+      "/images/meru/image1.jpg",
     ],
 
     description:
@@ -273,7 +273,7 @@ export const productsData = [
     rating: 4.5,
 
     mainCategory: "trophy",
-    subCategory: "sports",
+    subCategory: "metal",
 
     specifications: [
       {
@@ -336,10 +336,10 @@ export const productsData = [
   {
     id: 109,
     title: "Gold Sports Cup Trophy 4782",
-    srcUrl: "/images/meru/4782.png",
+    srcUrl: "/images/meru/4782.webp",
 
     gallery: [
-      "/images/meru/4782.png",
+      "/images/meru/4782.webp",
     ],
 
     description:
@@ -373,11 +373,11 @@ export const productsData = [
 
   {
     id: 110,
-    title: "Cricket Victory Trophy 4235",
-    srcUrl: "/images/meru/4235.png",
+    title: "Cricket Victory Trophy",
+    srcUrl: "/images/meru/image3.jpeg",
 
     gallery: [
-      "/images/meru/4235.png",
+      "/images/meru/image3.jpeg",
     ],
 
     description:
@@ -387,7 +387,7 @@ export const productsData = [
     rating: 4.8,
 
     mainCategory: "trophy",
-    subCategory: "cricket",
+    subCategory: "sports",
 
     specifications: [
       {
@@ -980,9 +980,9 @@ export const giftData = [
   {
     id: 301,
     title: "Romantic Illustration Acrylic Standee",
-    srcUrl: "/gifts/gift-1.webp",
+    srcUrl: "/images/gifts/gift-1.webp",
     gallery: [
-      "/gifts/gift-1.webp",
+      "/images/gifts/gift-1.webp",
     ],
     description:
       "An elegant, custom-cut acrylic standee displaying a stunning romantic couple illustration. Standing securely on a layered dark wooden base, it adds a touch of artistic charm to any tabletop or bedside drawer.",
@@ -1014,7 +1014,7 @@ export const giftData = [
   {
     id: 302,
     title: "Personalized Photo Print Acrylic LED Lamp",
-    srcUrl: "/gifts/gift-2.webp",
+    srcUrl: "/images/gifts/gift-2.webp",
     gallery: [
       "/images/gifts/gift-2.webp",
     ],

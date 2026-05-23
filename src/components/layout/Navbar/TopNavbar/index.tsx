@@ -18,18 +18,38 @@ const data: NavMenu = [
     id: 1,
     label: "Shop",
     type: "MenuList",
-    children: [
-      { id: 11, label: "Trophy", url: "/shop?type=trophy", description: "In attractive and spectacular colors and designs" },
-      { id: 12, label: "Frames", url: "/shop?type=frames", description: "Ladies, your style and tastes are important to us" },
-      { id: 13, label: "Gifts", url: "/shop?type=gifts", description: "For all ages, with happy and beautiful colors" },
-      { id: 14, label: "Photography", url: "/shop?type=photography", description: "Suitable for men, women and all tastes and styles" },
+children: [
+      { 
+        id: 11, 
+        label: "Trophy", 
+        url: "/shop?type=trophy", 
+        description: "Elite corporate awards and bespoke recognition mementos engineered to honor excellence." 
+      },
+      { 
+        id: 12, 
+        label: "Frames", 
+        url: "/shop?type=frames", 
+        description: "Handcrafted presentation frames designed to preserve your milestones, certificates, and art." 
+      },
+      { 
+        id: 13, 
+        label: "Gifts", 
+        url: "/shop?type=gifts", 
+        description: "Premium, thoughtfully curated custom gifts and executive novelties for every milestone." 
+      },
+      { 
+        id: 14, 
+        label: "Photography", 
+        url: "/shop?type=photography", 
+        description: "Professional portraiture, product showcases, and podium photography captured by expert eyes." 
+      },
     ],
   },
   { id: 2, type: "MenuItem", label: "On Sale", url: "/shop#on-sale", children: [] },
   { id: 3, type: "MenuItem", label: "New Arrivals", url: "/shop#new-arrivals", children: [] },
 ];
 
-const WHATSAPP_NUMBER = "919999999999"; // Replace with your number
+const WHATSAPP_NUMBER = "7339364669"; // Replace with your number
 const WHATSAPP_MESSAGE = "Hi! I'm interested in your products.";
 
 const WhatsAppBtn = () => (
@@ -85,7 +105,14 @@ const TopNavbar = () => {
               "absolute left-32 -translate-x-1/2 text-md whitespace-nowrap mb-1",
             ])}
           >
-            innovationghar
+            <div className="flex flex-col justify-center leading-none">
+              <span className="text-lg font-bold tracking-wider text-amber-500 font-sans uppercase">
+                AKi
+              </span>
+              <span className="text-[9px] tracking-[0.2em] text-zinc-400 uppercase hidden sm:inline">
+                Trophy & Photography
+              </span>
+            </div>
           </Link>
 
           {/* Right: WhatsApp icon + Cart */}
@@ -102,7 +129,14 @@ const TopNavbar = () => {
             href="/"
             className={cn([integralCF.className, "text-2xl lg:text-[27px] mb-1 whitespace-nowrap"])}
           >
-            innovationghar
+            <div className="flex flex-col justify-center leading-none">
+              <span className="text-lg font-bold tracking-wider text-black-500 font-sans uppercase">
+                AKi
+              </span>
+              <span className="text-[9px] tracking-[0.2em] text-zinc-400 uppercase hidden sm:inline">
+                Trophy & Photography
+              </span>
+            </div>
           </Link>
 
           {/* Center: Nav tabs */}

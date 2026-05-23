@@ -4,9 +4,9 @@ import React, { useState } from "react";
 
 const officeDetails = [
   {
-    label: "Our Showroom Location",
-    value: "104 Legacy Way, Suite A",
-    subValue: "New York, NY 10013",
+    label: "Our Location",
+    value: "AKi Studio & trophy",
+    subValue: "Saibaba Kovil Opposite,\nAgni Apartment side gate near,\nAndal puram, Madurai - 625002",
   },
   {
     label: "Direct Consultations",
@@ -34,7 +34,7 @@ const ContactPage = () => {
 
     // 1. Enter your business WhatsApp phone number here (Include country code, no spaces, no dashes)
     // Example: "15552345678" for a US number, "919876543210" for an India number
-    const whatsappNumber = "15552345678"; 
+    const whatsappNumber = "7339364669"; 
 
     // 2. Format the message into a clean text block
     const formattedMessage = `*New Studio Inquiry*\n\n` +
