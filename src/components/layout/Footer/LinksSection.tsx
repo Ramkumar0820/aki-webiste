@@ -11,22 +11,7 @@ const footerLinksData: FooterLinks[] = [
       {
         id: 11,
         label: "about",
-        url: "#",
-      },
-      {
-        id: 12,
-        label: "features",
-        url: "#",
-      },
-      {
-        id: 13,
-        label: "works",
-        url: "#",
-      },
-      {
-        id: 14,
-        label: "career",
-        url: "#",
+        url: "/about",
       },
     ],
   },
@@ -37,77 +22,77 @@ const footerLinksData: FooterLinks[] = [
       {
         id: 21,
         label: "customer support",
-        url: "#",
+        url: "/contact",
       },
-      {
-        id: 22,
-        label: "delivery details",
-        url: "#",
-      },
+      // {
+      //   id: 22,
+      //   label: "delivery details",
+      //   url: "#",
+      // },
       {
         id: 23,
         label: "terms & conditions",
-        url: "#",
+        url: "/terms",
       },
       {
         id: 24,
         label: "privacy policy",
-        url: "#",
+        url: "/privacy",
       },
     ],
   },
-  {
-    id: 3,
-    title: "faq",
-    children: [
-      {
-        id: 31,
-        label: "account",
-        url: "#",
-      },
-      {
-        id: 32,
-        label: "manage deliveries",
-        url: "#",
-      },
-      {
-        id: 33,
-        label: "orders",
-        url: "#",
-      },
-      {
-        id: 34,
-        label: "payments",
-        url: "#",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "resources",
-    children: [
-      {
-        id: 41,
-        label: "Free eBooks",
-        url: "#",
-      },
-      {
-        id: 42,
-        label: "development tutorial",
-        url: "#",
-      },
-      {
-        id: 43,
-        label: "How to - Blog",
-        url: "#",
-      },
-      {
-        id: 44,
-        label: "youtube playlist",
-        url: "#",
-      },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   title: "faq",
+  //   children: [
+  //     {
+  //       id: 31,
+  //       label: "account",
+  //       url: "#",
+  //     },
+  //     {
+  //       id: 32,
+  //       label: "manage deliveries",
+  //       url: "#",
+  //     },
+  //     {
+  //       id: 33,
+  //       label: "orders",
+  //       url: "#",
+  //     },
+  //     {
+  //       id: 34,
+  //       label: "payments",
+  //       url: "#",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 4,
+  //   title: "resources",
+  //   children: [
+  //     {
+  //       id: 41,
+  //       label: "Free eBooks",
+  //       url: "#",
+  //     },
+  //     {
+  //       id: 42,
+  //       label: "development tutorial",
+  //       url: "#",
+  //     },
+  //     {
+  //       id: 43,
+  //       label: "How to - Blog",
+  //       url: "#",
+  //     },
+  //     {
+  //       id: 44,
+  //       label: "youtube playlist",
+  //       url: "#",
+  //     },
+  //   ],
+  // },
 ];
 
 const LinksSection = () => {

@@ -1,44 +1,47 @@
-import Image from "next/image";
 import React from "react";
 
-const brandsData: { id: string; srcUrl: string }[] = [
-  {
-    id: "versace",
-    srcUrl: "/icons/versace-logo.svg",
-  },
-  {
-    id: "zara",
-    srcUrl: "/icons/zara-logo.svg",
-  },
-  {
-    id: "gucci",
-    srcUrl: "/icons/gucci-logo.svg",
-  },
-  {
-    id: "prada",
-    srcUrl: "/icons/prada-logo.svg",
-  },
-  {
-    id: "calvin-klein",
-    srcUrl: "/icons/calvin-klein-logo.svg",
-  },
+const keywords = [
+  "Custom Trophies",
+  "Photography",
+  "Bespoke Gift Frames",
+  "Corporate Awards",
+  "Fine Art Prints",
+  "Handcrafted Frames",
+  "Event Photography",
+  "Engraved Medals",
 ];
 
 const Brands = () => {
   return (
-    <div className="bg-black">
-      <div className="max-w-frame mx-auto flex flex-wrap items-center justify-center md:justify-between py-5 md:py-0 sm:px-4 xl:px-0 space-x-7">
-        {brandsData.map((brand) => (
-          <Image
-            key={brand.id}
-            priority
-            src={brand.srcUrl}
-            height={0}
-            width={0}
-            alt={brand.id}
-            className="h-auto w-auto max-w-[116px] lg:max-w-48 max-h-[26px] lg:max-h-9 my-5 md:my-11"
-          />
-        ))}
+    <div className="bg-black py-6 border-y border-zinc-900 overflow-hidden select-none">
+      {/* Container that hides the horizontal overflow */}
+      <div className="flex w-max items-center">
+        
+        {/* Track 1: First moving group */}
+        <div className="flex animate-marquee whitespace-nowrap gap-16 pr-16 items-center">
+          {keywords.map((text, idx) => (
+            <div key={`track1-${idx}`} className="flex items-center gap-16">
+              <span className="text-xl md:text-2xl font-bold tracking-tight text-zinc-300 hover:text-white transition-colors duration-300 cursor-default">
+                {text}
+              </span>
+              {/* Sleek diamond geometric divider between words */}
+              <span className="w-2 h-2 rotate-45 bg-zinc-700 block" />
+            </div>
+          ))}
+        </div>
+
+        {/* Track 2: Exact duplicate track right behind it to make the loop seamless */}
+        <div className="flex animate-marquee whitespace-nowrap gap-16 pr-16 items-center" aria-hidden="true">
+          {keywords.map((text, idx) => (
+            <div key={`track2-${idx}`} className="flex items-center gap-16">
+              <span className="text-xl md:text-2xl font-bold tracking-tight text-zinc-300 hover:text-white transition-colors duration-300 cursor-default">
+                {text}
+              </span>
+              <span className="w-2 h-2 rotate-45 bg-zinc-700 block" />
+            </div>
+          ))}
+        </div>
+
       </div>
     </div>
   );
