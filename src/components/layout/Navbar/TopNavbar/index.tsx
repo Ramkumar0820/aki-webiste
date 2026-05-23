@@ -62,67 +62,72 @@ const TopNavbar = () => {
   }, [lastScrollY]);
 
   return (
-    <header
-      className={`bg-white text-black fixed top-0 left-0 w-full z-50 transition-transform duration-300 shadow-sm ${
+    <nav className="sticky top-0 bg-white z-20">
+      <div className={`max-w-frame mx-auto items-center py-5 md:py-6 transition-transform duration-300 shadow-sm px-6 xl:px-12 ${showHeader ? "translate-y-0" : "-translate-y-full"
+        }`}>
+        {/* <header
+      className={`bg-white text-black fixed top-0 left-0 w-full z-50 transition-transform duration-300 shadow-sm  py-5 md:py-6 px-6 xl:px-12 ${
         showHeader ? "translate-y-0" : "-translate-y-full"
       }`}
-    >
-      {/* ── Mobile layout (below md) ── */}
-      <div className="flex md:hidden items-center justify-between px-4 py-4">
-        {/* Left: hamburger */}
-        <div className="flex items-center gap-2 shrink-0">
-          <ResTopNavbar data={data} />
+    > */}
+        {/* ── Mobile layout (below md) ── */}
+        <div className="flex md:hidden items-center justify-between">
+          {/* Left: hamburger */}
+          <div className="flex items-center gap-2 shrink-0">
+            <ResTopNavbar data={data} />
+          </div>
+
+          {/* Center: logo — absolutely centered so it's always truly centered */}
+          <Link
+            href="/"
+            className={cn([
+              integralCF.className,
+              "absolute left-32 -translate-x-1/2 text-md whitespace-nowrap mb-1",
+            ])}
+          >
+            innovationghar
+          </Link>
+
+          {/* Right: WhatsApp icon + Cart */}
+          <div className="flex items-center gap-2 shrink-0">
+            <WhatsAppBtn />
+            <CartBtn />
+          </div>
         </div>
 
-        {/* Center: logo — absolutely centered so it's always truly centered */}
-        <Link
-          href="/"
-          className={cn([
-            integralCF.className,
-            "absolute left-32 -translate-x-1/2 text-md whitespace-nowrap mb-1",
-          ])}
-        >
-          innovationghar
-        </Link>
+        {/* ── Desktop layout (md and above) ── */}
+        <div className="hidden md:grid grid-cols-[auto_1fr_auto] items-center gap-4 max-w-frame mx-auto">
+          {/* Left: Logo */}
+          <Link
+            href="/"
+            className={cn([integralCF.className, "text-2xl lg:text-[27px] mb-1 whitespace-nowrap"])}
+          >
+            innovationghar
+          </Link>
 
-        {/* Right: WhatsApp icon + Cart */}
-        <div className="flex items-center gap-2 shrink-0">
-          <WhatsAppBtn />
-          <CartBtn />
+          {/* Center: Nav tabs */}
+          <div className="flex justify-center">
+            <NavigationMenu>
+              <NavigationMenuList>
+                {data.map((item) => (
+                  <React.Fragment key={item.id}>
+                    {item.type === "MenuItem" && <MenuItem label={item.label} url={item.url} />}
+                    {item.type === "MenuList" && <MenuList data={item.children} label={item.label} />}
+                  </React.Fragment>
+                ))}
+              </NavigationMenuList>
+            </NavigationMenu>
+          </div>
+
+          {/* Right: WhatsApp + Cart */}
+          <div className="flex items-center gap-3">
+            <WhatsAppBtn />
+            <CartBtn />
+          </div>
         </div>
+        {/* </header> */}
       </div>
-
-      {/* ── Desktop layout (md and above) ── */}
-      <div className="hidden md:grid grid-cols-[auto_1fr_auto] items-center gap-4 max-w-frame mx-auto px-6 xl:px-12 py-5 md:py-6">
-        {/* Left: Logo */}
-        <Link
-          href="/"
-          className={cn([integralCF.className, "text-2xl lg:text-[27px] mb-1 whitespace-nowrap"])}
-        >
-          innovationghar
-        </Link>
-
-        {/* Center: Nav tabs */}
-        <div className="flex justify-center">
-          <NavigationMenu>
-            <NavigationMenuList>
-              {data.map((item) => (
-                <React.Fragment key={item.id}>
-                  {item.type === "MenuItem" && <MenuItem label={item.label} url={item.url} />}
-                  {item.type === "MenuList" && <MenuList data={item.children} label={item.label} />}
-                </React.Fragment>
-              ))}
-            </NavigationMenuList>
-          </NavigationMenu>
-        </div>
-
-        {/* Right: WhatsApp + Cart */}
-        <div className="flex items-center gap-3">
-          <WhatsAppBtn />
-          <CartBtn />
-        </div>
-      </div>
-    </header>
+    </nav>
   );
 };
 
