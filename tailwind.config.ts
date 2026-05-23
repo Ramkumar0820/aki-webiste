@@ -18,10 +18,10 @@ const config: Config = {
         xs: "375px",
       },
       width: {
-        frame: "77.5rem",
+        frame: "1920px",
       },
       maxWidth: {
-        frame: "77.5rem",
+        frame: "1920px",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

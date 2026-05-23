@@ -1,7 +1,8 @@
+'use client';
 import { cn } from "@/lib/utils";
 import { integralCF } from "@/styles/fonts";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { NavMenu } from "../navbar.types";
 import { MenuList } from "./MenuList";
 import {
@@ -70,9 +71,37 @@ const data: NavMenu = [
 ];
 
 const TopNavbar = () => {
+  const [showHeader, setShowHeader] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  // Scroll hide/show effect
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > lastScrollY && currentScrollY > 80) {
+        // scrolling down
+        setShowHeader(false);
+      } else {
+        // scrolling up
+        setShowHeader(true);
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollY]);
   return (
-    <nav className="sticky top-0 bg-white z-20">
-      <div className="flex relative max-w-frame mx-auto items-center justify-between md:justify-start py-5 md:py-6 px-4 xl:px-0">
+    // <nav className="sticky top-0 bg-white z-20">
+    <header
+      className={`bg-white text-black fixed top-0 left-0 w-full z-50 transition-transform duration-300 ${
+        showHeader ? "translate-y-0" : "-translate-y-full"
+      }`}
+    >
+      <div className="flex justify-between relative max-w-frame mx-auto items-center justify-between md:justify-start py-5 md:py-6 px-6 xl:px-12">
         <div className="flex items-center">
           <div className="block md:hidden mr-4">
             <ResTopNavbar data={data} />
@@ -84,7 +113,7 @@ const TopNavbar = () => {
               "text-2xl lg:text-[27px] mb-2 mr-3 lg:mr-10",
             ])}
           >
-           innovationghar
+            innovationghar
           </Link>
         </div>
         <NavigationMenu className="hidden md:flex mr-2 lg:mr-7">
@@ -143,7 +172,8 @@ const TopNavbar = () => {
           </Link> */}
         </div>
       </div>
-    </nav>
+    </header>
+
   );
 };
 
