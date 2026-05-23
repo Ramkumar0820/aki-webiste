@@ -412,329 +412,577 @@ export const productsData = [
 ];
 
 export const woodenTrophyData = [
-
   {
     id: 201,
-    title: "Wooden Shield Trophy",
-    srcUrl: "/images/wooden/wooden1.png",
-
-    gallery: [
-      "/images/wooden/wooden1.png",
-      "/images/wooden/wooden1-2.png",
-    ],
-
-    description:
-      "Elegant wooden shield trophy suitable for schools, colleges, and sports competitions.",
-
+    title: "F8452",
+    srcUrl: "/trophies/f8452.jpeg",
+    gallery: ["/trophies/f8452.jpeg"],
+    description: "Elegant trophy suitable for schools, colleges, and sports competitions.",
     price: 220,
     rating: 4.7,
-
     mainCategory: "trophy",
     subCategory: "wooden",
-
     specifications: [
-      {
-        label: "Material",
-        value: "Premium Wood",
-      },
-      {
-        label: "Finish",
-        value: "Glossy Brown Polish",
-      },
-      {
-        label: "Usage",
-        value: "School & Sports Awards",
-      },
+      { label: "Material", value: "Premium Wood" },
+      { label: "Finish", value: "Glossy Brown Polish" },
+      { label: "Usage", value: "School & Sports Awards" },
     ],
-
-    faqs: [
-      {
-        question: "Can logo printing be added?",
-        answer:
-          "Yes, custom logo printing is available.",
-      },
-    ],
+    faqs: [{ question: "Can logo printing be added?", answer: "Yes, custom logo printing is available." }],
   },
-
   {
     id: 202,
-    title: "Classic Wooden Plaque Trophy",
-    srcUrl: "/images/wooden/wooden2.png",
-
-    gallery: [
-      "/images/wooden/wooden2.png",
-    ],
-
-    description:
-      "Classic wooden plaque trophy for employee recognition and appreciation awards.",
-
+    title: "F8464",
+    srcUrl: "/trophies/f8464.jpeg",
+    gallery: ["/trophies/f8464.jpeg"],
+    description: "Classic trophy for employee recognition and appreciation awards.",
     price: 399,
     rating: 4.5,
-
     mainCategory: "trophy",
     subCategory: "wooden",
-
     specifications: [
-      {
-        label: "Material",
-        value: "Wood + Gold Plate",
-      },
-      {
-        label: "Style",
-        value: "Corporate Plaque",
-      },
+      { label: "Material", value: "Wood + Gold Plate" },
+      { label: "Style", value: "Corporate Plaque" },
     ],
-
-    faqs: [
-      {
-        question: "Can text engraving be customized?",
-        answer:
-          "Yes, personalized engraving is supported.",
-      },
-    ],
+    faqs: [{ question: "Can text engraving be customized?", answer: "Yes, personalized engraving is supported." }],
   },
-
   {
     id: 203,
-    title: "Premium Wooden Sports Trophy",
-    srcUrl: "/images/wooden/wooden3.png",
-
-    gallery: [
-      "/images/wooden/wooden3.png",
-    ],
-
-    description:
-      "Premium wooden sports trophy for cricket, football, badminton, and tournament events.",
-
+    title: "TR123",
+    srcUrl: "/trophies/tr123.jpeg",
+    gallery: ["/trophies/tr123.jpeg"],
+    description: "Premium sports trophy for cricket, football, badminton, and tournament events.",
     price: 800,
     rating: 4.8,
-
     mainCategory: "trophy",
     subCategory: "wooden",
-
     specifications: [
-      {
-        label: "Material",
-        value: "Wood",
-      },
-      {
-        label: "Category",
-        value: "Sports Trophy",
-      },
+      { label: "Material", value: "Wood" },
+      { label: "Category", value: "Sports Trophy" },
     ],
-
-    faqs: [
-      {
-        question: "Can tournament names be engraved?",
-        answer:
-          "Yes, custom tournament engraving is available.",
-      },
-    ],
+    faqs: [{ question: "Can tournament names be engraved?", answer: "Yes, custom tournament engraving is available." }],
   },
-
   {
     id: 204,
-    title: "Luxury Wooden Trophy Award",
-    srcUrl: "/images/wooden/wooden4.png",
-
-    gallery: [
-      "/images/wooden/wooden4.png",
-    ],
-
-    description:
-      "Luxury handcrafted wooden trophy award with premium finish and elegant design.",
-
+    title: "TR194",
+    srcUrl: "/trophies/tr194.jpeg",
+    gallery: ["/trophies/tr194.jpeg"],
+    description: "Luxury handcrafted trophy award with premium finish and elegant design.",
     price: 1206,
     rating: 5,
-
     mainCategory: "trophy",
     subCategory: "wooden",
-
     specifications: [
-      {
-        label: "Material",
-        value: "Premium Hardwood",
-      },
-      {
-        label: "Finish",
-        value: "Luxury Matte Finish",
-      },
-      {
-        label: "Usage",
-        value: "Corporate & Premium Awards",
-      },
+      { label: "Material", value: "Premium Hardwood" },
+      { label: "Finish", value: "Luxury Matte Finish" },
+      { label: "Usage", value: "Corporate & Premium Awards" },
     ],
-
-    faqs: [
-      {
-        question: "Is gift box included?",
-        answer:
-          "Yes, premium packaging box included.",
-      },
-    ],
+    faqs: [{ question: "Is gift box included?", answer: "Yes, premium packaging box included." }],
   },
-
   {
     id: 205,
-    title: "Wooden Star Trophy",
-    srcUrl: "/images/wooden/wooden5.png",
-
-    gallery: [
-      "/images/wooden/wooden5.png",
-    ],
-
-    description:
-      "Modern wooden star trophy for achievement and excellence awards.",
-
+    title: "TR195",
+    srcUrl: "/trophies/tr195.jpeg",
+    gallery: ["/trophies/tr195.jpeg"],
+    description: "Modern trophy for achievement and excellence awards.",
     price: 999,
     rating: 4.6,
-
     mainCategory: "trophy",
     subCategory: "wooden",
-
     specifications: [
-      {
-        label: "Material",
-        value: "Wood + Metal Star",
-      },
-      {
-        label: "Design",
-        value: "Star Shape",
-      },
+      { label: "Material", value: "Wood + Metal" },
+      { label: "Design", value: "Achievement Shape" },
     ],
-
-    faqs: [
-      {
-        question: "Can this be used for office awards?",
-        answer:
-          "Yes, perfect for office recognition awards.",
-      },
-    ],
+    faqs: [{ question: "Can this be used for office awards?", answer: "Yes, perfect for office recognition awards." }],
   },
-
   {
     id: 206,
-    title: "Customized Wooden Trophy",
-    srcUrl: "/images/wooden/wooden6.png",
-
-    gallery: [
-      "/images/wooden/wooden6.png",
-    ],
-
-    description:
-      "Customized wooden trophy with personalized name plate and logo engraving.",
-
+    title: "TR228",
+    srcUrl: "/trophies/tr228.jpeg",
+    gallery: ["/trophies/tr228.jpeg"],
+    description: "Customized trophy with personalized name plate and logo engraving.",
     price: 1499,
     rating: 4.9,
-
     mainCategory: "trophy",
     subCategory: "wooden",
-
     specifications: [
-      {
-        label: "Customization",
-        value: "Name & Logo Engraving",
-      },
-      {
-        label: "Material",
-        value: "Wood",
-      },
+      { label: "Customization", value: "Name & Logo Engraving" },
+      { label: "Material", value: "Wood" },
     ],
-
-    faqs: [
-      {
-        question: "Can I order bulk quantity?",
-        answer:
-          "Yes, bulk customization orders are accepted.",
-      },
-    ],
+    faqs: [{ question: "Can I order bulk quantity?", answer: "Yes, bulk customization orders are accepted." }],
   },
-
   {
     id: 207,
-    title: "Wooden Achievement Trophy",
-    srcUrl: "/images/wooden/wooden7.png",
-
-    gallery: [
-      "/images/wooden/wooden7.png",
-    ],
-
-    description:
-      "Elegant achievement trophy for schools, colleges, and competitions.",
-
+    title: "TR269",
+    srcUrl: "/trophies/tr269.jpeg",
+    gallery: ["/trophies/tr269.jpeg"],
+    description: "Elegant achievement trophy for schools, colleges, and competitions.",
     price: 659,
     rating: 4.4,
-
     mainCategory: "trophy",
     subCategory: "wooden",
-
     specifications: [
-      {
-        label: "Material",
-        value: "Wood",
-      },
-      {
-        label: "Usage",
-        value: "Achievement Awards",
-      },
+      { label: "Material", value: "Wood" },
+      { label: "Usage", value: "Achievement Awards" },
     ],
-
-    faqs: [
-      {
-        question: "Is custom branding available?",
-        answer:
-          "Yes, custom branding and engraving are supported.",
-      },
-    ],
+    faqs: [{ question: "Is custom branding available?", answer: "Yes, custom branding and engraving are supported." }],
   },
-
   {
     id: 208,
-    title: "Wooden Cricket Trophy",
-    srcUrl: "/images/wooden/wooden8.png",
-
-    gallery: [
-      "/images/wooden/wooden8.png",
-    ],
-
-    description:
-      "Cricket-themed wooden trophy for sports tournaments and leagues.",
-
+    title: "TR283",
+    srcUrl: "/trophies/tr283.jpeg",
+    gallery: ["/trophies/tr283.jpeg"],
+    description: "Sports trophy for tournaments and leagues.",
     price: 450,
     rating: 4.5,
-
     mainCategory: "trophy",
     subCategory: "wooden",
-
     specifications: [
-      {
-        label: "Sport",
-        value: "Cricket",
-      },
-      {
-        label: "Material",
-        value: "Wood",
-      },
+      { label: "Sport", value: "Multi-Sport" },
+      { label: "Material", value: "Wood" },
     ],
-
-    faqs: [
-      {
-        question: "Can player names be added?",
-        answer:
-          "Yes, player and team names can be engraved.",
-      },
-    ],
+    faqs: [{ question: "Can player names be added?", answer: "Yes, player and team names can be engraved." }],
   },
-
+  {
+    id: 209,
+    title: "TR306",
+    srcUrl: "/trophies/tr306.jpeg",
+    gallery: ["/trophies/tr306.jpeg"],
+    description: "Classic trophy for corporate and institutional recognition.",
+    price: 550,
+    rating: 4.6,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Usage", value: "Corporate Awards" },
+    ],
+    faqs: [{ question: "Is engraving available?", answer: "Yes, custom engraving is available." }],
+  },
+  {
+    id: 210,
+    title: "TR323",
+    srcUrl: "/trophies/tr323.jpeg",
+    gallery: ["/trophies/tr323.jpeg"],
+    description: "Premium trophy for excellence and outstanding performance recognition.",
+    price: 720,
+    rating: 4.7,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood + Metal" },
+      { label: "Usage", value: "Excellence Awards" },
+    ],
+    faqs: [{ question: "Can logo be added?", answer: "Yes, logo engraving is supported." }],
+  },
+  {
+    id: 211,
+    title: "TR392",
+    srcUrl: "/trophies/tr392.jpeg",
+    gallery: ["/trophies/tr392.jpeg"],
+    description: "Handcrafted trophy for sports and academic achievements.",
+    price: 480,
+    rating: 4.5,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Usage", value: "Sports & Academic" },
+    ],
+    faqs: [{ question: "Is bulk order available?", answer: "Yes, bulk orders are accepted." }],
+  },
+  {
+    id: 212,
+    title: "TR396",
+    srcUrl: "/trophies/tr396.jpeg",
+    gallery: ["/trophies/tr396.jpeg"],
+    description: "Elegant trophy with glossy finish for competitions and events.",
+    price: 620,
+    rating: 4.6,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Finish", value: "Glossy" },
+    ],
+    faqs: [{ question: "Can event name be engraved?", answer: "Yes, event name engraving is available." }],
+  },
+  {
+    id: 213,
+    title: "TR428",
+    srcUrl: "/trophies/tr428.jpeg",
+    gallery: ["/trophies/tr428.jpeg"],
+    description: "Trophy for corporate and team recognition events.",
+    price: 890,
+    rating: 4.8,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Premium Wood" },
+      { label: "Usage", value: "Team Awards" },
+    ],
+    faqs: [{ question: "Can team logo be added?", answer: "Yes, team logo engraving is supported." }],
+  },
+  {
+    id: 214,
+    title: "TR459",
+    srcUrl: "/trophies/tr459.jpeg",
+    gallery: ["/trophies/tr459.jpeg"],
+    description: "Modern designed trophy for achievement and performance awards.",
+    price: 760,
+    rating: 4.7,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood + Acrylic" },
+      { label: "Design", value: "Modern" },
+    ],
+    faqs: [{ question: "Is personalization available?", answer: "Yes, personalized engraving is available." }],
+  },
+  {
+    id: 215,
+    title: "TR487",
+    srcUrl: "/trophies/tr487.jpeg",
+    gallery: ["/trophies/tr487.jpeg"],
+    description: "Sports and institutional trophy with premium craftsmanship.",
+    price: 530,
+    rating: 4.5,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Usage", value: "Institutional Awards" },
+    ],
+    faqs: [{ question: "Can institution name be engraved?", answer: "Yes, institution name engraving supported." }],
+  },
+  {
+    id: 216,
+    title: "TR491",
+    srcUrl: "/trophies/tr491.jpeg",
+    gallery: ["/trophies/tr491.jpeg"],
+    description: "Elegant trophy suitable for all occasions and award ceremonies.",
+    price: 670,
+    rating: 4.6,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Usage", value: "All Occasions" },
+    ],
+    faqs: [{ question: "Is gift wrapping available?", answer: "Yes, gift wrapping is available on request." }],
+  },
+  {
+    id: 217,
+    title: "TR515",
+    srcUrl: "/trophies/tr515.jpeg",
+    gallery: ["/trophies/tr515.jpeg"],
+    description: "Premium trophy for excellence in sports and academics.",
+    price: 910,
+    rating: 4.8,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Premium Wood" },
+      { label: "Usage", value: "Sports & Academic" },
+    ],
+    faqs: [{ question: "Can custom text be added?", answer: "Yes, custom text engraving is available." }],
+  },
+  {
+    id: 218,
+    title: "TR520",
+    srcUrl: "/trophies/tr520.jpeg",
+    gallery: ["/trophies/tr520.jpeg"],
+    description: "Classic award trophy for recognition and appreciation ceremonies.",
+    price: 580,
+    rating: 4.5,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Usage", value: "Recognition Awards" },
+    ],
+    faqs: [{ question: "Is bulk discount available?", answer: "Yes, bulk discounts are offered." }],
+  },
+  {
+    id: 219,
+    title: "TR521",
+    srcUrl: "/trophies/tr521.jpeg",
+    gallery: ["/trophies/tr521.jpeg"],
+    description: "Handcrafted trophy with fine detailing for premium award events.",
+    price: 1100,
+    rating: 4.9,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Hardwood" },
+      { label: "Finish", value: "Premium Polish" },
+    ],
+    faqs: [{ question: "Is custom packaging available?", answer: "Yes, premium packaging is available." }],
+  },
+  {
+    id: 220,
+    title: "TR524",
+    srcUrl: "/trophies/tr524.jpeg",
+    gallery: ["/trophies/tr524.jpeg"],
+    description: "Trophy for sporting events and institutional award ceremonies.",
+    price: 640,
+    rating: 4.6,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Usage", value: "Sports & Institutional" },
+    ],
+    faqs: [{ question: "Can date be engraved?", answer: "Yes, date engraving is supported." }],
+  },
+  {
+    id: 221,
+    title: "TR537",
+    srcUrl: "/trophies/tr537.jpeg",
+    gallery: ["/trophies/tr537.jpeg"],
+    description: "Modern trophy for corporate and team excellence awards.",
+    price: 850,
+    rating: 4.7,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood + Metal" },
+      { label: "Usage", value: "Corporate Excellence" },
+    ],
+    faqs: [{ question: "Can company logo be added?", answer: "Yes, company logo engraving is available." }],
+  },
+  {
+    id: 222,
+    title: "TR538",
+    srcUrl: "/trophies/tr538.jpeg",
+    gallery: ["/trophies/tr538.jpeg"],
+    description: "Award trophy with elegant design for all recognition events.",
+    price: 700,
+    rating: 4.6,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Design", value: "Elegant" },
+    ],
+    faqs: [{ question: "Is engraving available?", answer: "Yes, custom engraving is available." }],
+  },
+  {
+    id: 223,
+    title: "TR554",
+    srcUrl: "/trophies/tr554.jpeg",
+    gallery: ["/trophies/tr554.jpeg"],
+    description: "Premium trophy for outstanding achievement and performance.",
+    price: 960,
+    rating: 4.8,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Premium Wood" },
+      { label: "Usage", value: "Outstanding Achievement" },
+    ],
+    faqs: [{ question: "Can winner name be engraved?", answer: "Yes, winner name engraving is supported." }],
+  },
+  {
+    id: 224,
+    title: "TR556",
+    srcUrl: "/trophies/tr556.jpeg",
+    gallery: ["/trophies/tr556.jpeg"],
+    description: "Classic wooden trophy for schools, colleges and sports events.",
+    price: 430,
+    rating: 4.4,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Usage", value: "Schools & Colleges" },
+    ],
+    faqs: [{ question: "Is logo printing available?", answer: "Yes, logo printing is available." }],
+  },
+  {
+    id: 225,
+    title: "TR1016B",
+    srcUrl: "/trophies/tr1016b.jpeg",
+    gallery: ["/trophies/tr1016b.jpeg"],
+    description: "Luxury trophy with black finish for premium award ceremonies.",
+    price: 1350,
+    rating: 4.9,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Finish", value: "Black Premium" },
+    ],
+    faqs: [{ question: "Is custom engraving available?", answer: "Yes, custom engraving is supported." }],
+  },
+  {
+    id: 226,
+    title: "TR1016L",
+    srcUrl: "/trophies/tr1016l.jpeg",
+    gallery: ["/trophies/tr1016l.jpeg"],
+    description: "Luxury trophy with light finish for premium award ceremonies.",
+    price: 1350,
+    rating: 4.9,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Finish", value: "Light Premium" },
+    ],
+    faqs: [{ question: "Is custom engraving available?", answer: "Yes, custom engraving is supported." }],
+  },
+  {
+    id: 227,
+    title: "TR1744",
+    srcUrl: "/trophies/tr1744.jpeg",
+    gallery: ["/trophies/tr1744.jpeg"],
+    description: "Handcrafted trophy for elite competitions and premium recognition.",
+    price: 1800,
+    rating: 5,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Premium Hardwood" },
+      { label: "Usage", value: "Elite Awards" },
+    ],
+    faqs: [{ question: "Is premium packaging included?", answer: "Yes, premium packaging is included." }],
+  },
+  {
+    id: 228,
+    title: "TR2218",
+    srcUrl: "/trophies/tr2218.jpeg",
+    gallery: ["/trophies/tr2218.jpeg"],
+    description: "Modern trophy for corporate and institutional excellence awards.",
+    price: 1150,
+    rating: 4.8,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood + Metal" },
+      { label: "Usage", value: "Corporate Excellence" },
+    ],
+    faqs: [{ question: "Can logo be engraved?", answer: "Yes, logo engraving is available." }],
+  },
+  {
+    id: 229,
+    title: "TR8158",
+    srcUrl: "/trophies/tr8158.jpeg",
+    gallery: ["/trophies/tr8158.jpeg"],
+    description: "Premium trophy for sports and achievement recognition ceremonies.",
+    price: 780,
+    rating: 4.7,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Usage", value: "Sports & Achievement" },
+    ],
+    faqs: [{ question: "Is bulk order available?", answer: "Yes, bulk orders are accepted." }],
+  },
+  {
+    id: 230,
+    title: "TR8418",
+    srcUrl: "/trophies/tr8418.jpeg",
+    gallery: ["/trophies/tr8418.jpeg"],
+    description: "Elegant trophy with premium finish for all award occasions.",
+    price: 920,
+    rating: 4.8,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Premium Wood" },
+      { label: "Finish", value: "Premium Polish" },
+    ],
+    faqs: [{ question: "Can custom text be added?", answer: "Yes, custom text engraving is available." }],
+  },
+  {
+    id: 231,
+    title: "TR8439 White",
+    srcUrl: "/trophies/tr8439-white.jpeg",
+    gallery: ["/trophies/tr8439-white.jpeg"],
+    description: "White finish trophy for elegant and modern award ceremonies.",
+    price: 1050,
+    rating: 4.8,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Finish", value: "White" },
+    ],
+    faqs: [{ question: "Is engraving available?", answer: "Yes, engraving is available on request." }],
+  },
+  {
+    id: 232,
+    title: "TR8439",
+    srcUrl: "/trophies/tr8439.jpeg",
+    gallery: ["/trophies/tr8439.jpeg"],
+    description: "Classic trophy for sports and corporate recognition events.",
+    price: 980,
+    rating: 4.7,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Usage", value: "Sports & Corporate" },
+    ],
+    faqs: [{ question: "Can name plate be customized?", answer: "Yes, name plate customization is available." }],
+  },
+  {
+    id: 233,
+    title: "TR8502",
+    srcUrl: "/trophies/tr8502.jpeg",
+    gallery: ["/trophies/tr8502.jpeg"],
+    description: "Premium award trophy for excellence and outstanding performance.",
+    price: 1120,
+    rating: 4.9,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Premium Wood" },
+      { label: "Usage", value: "Excellence Awards" },
+    ],
+    faqs: [{ question: "Is gift packaging available?", answer: "Yes, gift packaging is available." }],
+  },
+  {
+    id: 234,
+    title: "TR8505",
+    srcUrl: "/trophies/tr8505.jpeg",
+    gallery: ["/trophies/tr8505.jpeg"],
+    description: "Handcrafted trophy for competitions and institutional award events.",
+    price: 860,
+    rating: 4.7,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood" },
+      { label: "Usage", value: "Competitions & Institutions" },
+    ],
+    faqs: [{ question: "Can event details be engraved?", answer: "Yes, event details engraving is supported." }],
+  },
+  {
+    id: 235,
+    title: "TR8506",
+    srcUrl: "/trophies/tr8506.jpeg",
+    gallery: ["/trophies/tr8506.jpeg"],
+    description: "Modern trophy with sleek design for corporate and sports awards.",
+    price: 940,
+    rating: 4.8,
+    mainCategory: "trophy",
+    subCategory: "wooden",
+    specifications: [
+      { label: "Material", value: "Wood + Metal" },
+      { label: "Design", value: "Sleek Modern" },
+    ],
+    faqs: [{ question: "Is custom engraving available?", answer: "Yes, custom engraving is supported." }],
+  },
 ];
 
 export const giftData = [
   {
     id: 301,
     title: "Romantic Illustration Acrylic Standee",
-    srcUrl: "/images/gifts/gift-1.webp",
+    srcUrl: "/gifts/gift-1.webp",
     gallery: [
-      "/images/gifts/gift-1.webp",
+      "/gifts/gift-1.webp",
     ],
     description:
       "An elegant, custom-cut acrylic standee displaying a stunning romantic couple illustration. Standing securely on a layered dark wooden base, it adds a touch of artistic charm to any tabletop or bedside drawer.",
@@ -766,7 +1014,7 @@ export const giftData = [
   {
     id: 302,
     title: "Personalized Photo Print Acrylic LED Lamp",
-    srcUrl: "/images/gifts/gift-2.webp",
+    srcUrl: "/gifts/gift-2.webp",
     gallery: [
       "/images/gifts/gift-2.webp",
     ],

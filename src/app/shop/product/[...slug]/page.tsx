@@ -1,5 +1,5 @@
 import ProductspageDetailSection from "@/core/pages/ProductspageDetailSection";
-import { productsData } from "@/data/products";
+import { allProducts } from "@/data/products";  // ← change this
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
@@ -10,7 +10,7 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const id = Number(slug[0]);
-  const product = productsData.find((p) => p.id === id);
+  const product = allProducts.find((p) => p.id === id);  // ← change this
 
   if (!product) {
     return {
@@ -27,21 +27,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: product.title,
       description: product.description,
-    //   url: ``,
       siteName: "",
-      images: [
-        {
-          url: product.srcUrl || "/default-og.jpg",
-          width: 1200,
-          height: 630,
-          alt: product.title,
-        },
-      ],
+      images: [{ url: product.srcUrl || "/default-og.jpg", width: 1200, height: 630, alt: product.title }],
       locale: "en_US",
       type: "website",
-    },
-    alternates: {
-    //   canonical: ``,
     },
     twitter: {
       card: "summary_large_image",
@@ -54,26 +43,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export async function generateStaticParams() {
-  return productsData.map((p) => ({
+  return allProducts.map((p) => ({  // ← change this
     slug: [String(p.id), p.title.toLowerCase().replace(/\s+/g, "-")],
   }));
 }
 
 export default async function ProductPage({ params }: Props) {
   const { slug } = await params;
-  const id = Number(slug[0]); // "101" from ["101", "Gold-Metal-Trophy-..."]
-  console.log("slug:", slug);
-  console.log("all IDs:", productsData.map(p => p.id));
+  const id = Number(slug[0]);
 
-  const productData = productsData.find((p) => p.id === id);
+  const productData = allProducts.find((p) => p.id === id);  // ← change this
 
   if (!productData) {
     notFound();
   }
 
-  const relatedProducts = productsData.filter(
-    (item) =>
-      item.mainCategory === productData.mainCategory && item.id !== productData.id
+  const relatedProducts = allProducts.filter(  // ← change this
+    (item) => item.mainCategory === productData.mainCategory && item.id !== productData.id
   );
 
   return (

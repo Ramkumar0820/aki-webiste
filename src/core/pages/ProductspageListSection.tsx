@@ -111,7 +111,7 @@ function ProductspageListSection() {
 
   return (
     <div>
-      <div className="max-w-frame mx-auto px-4 xl:px-0">
+      <div className="max-w-frame mx-auto px-6 xl:px-12">
         <hr className="h-[1px] border-t-black/10 mb-5 sm:mb-6" />
 
         <BreadcrumbShop />
