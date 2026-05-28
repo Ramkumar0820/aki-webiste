@@ -19,7 +19,7 @@ function CartpageSection() {
     );
     return (
         <div>
-            <div className="max-w-frame mx-auto px-4 xl:px-0">
+            <div className="max-w-frame mx-auto px-6 xl:px-12 py-10">
                 {cart && cart.items.length > 0 ? (
                     <>
                         <BreadcrumbCart />
@@ -77,7 +77,7 @@ function CartpageSection() {
                                         </span>
                                     </div>
                                 </div>
-                                <div className="flex space-x-3">
+                                {/* <div className="flex space-x-3">
                                     <InputGroup className="bg-[#F0F0F0]">
                                         <InputGroup.Text>
                                             <MdOutlineLocalOffer className="text-black/40 text-2xl" />
@@ -95,14 +95,14 @@ function CartpageSection() {
                                     >
                                         Apply
                                     </Button>
-                                </div>
-                                <Button
+                                </div> */}
+                                {/* <Button
                                     type="button"
                                     className="text-sm md:text-base font-medium bg-black rounded-full w-full py-4 h-[54px] md:h-[60px] group"
                                 >
                                     Go to Checkout{" "}
                                     <FaArrowRight className="text-xl ml-2 group-hover:translate-x-1 transition-all" />
-                                </Button>
+                                </Button> */}
                             </div>
                         </div>
                     </>

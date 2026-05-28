@@ -8,7 +8,7 @@ import Tabs from "@/components/product-page/Tabs";
 function ProductspageDetailSection({ productData, relatedProducts }: { productData: any, relatedProducts: any }) {
   return (
     <div>
-      <div className="max-w-frame mx-auto px-4 xl:px-0">
+      <div className="max-w-frame mx-auto px-4 xl:px-12">
 
         <hr className="h-px border-t-black/10 mb-5 sm:mb-6" />
 
