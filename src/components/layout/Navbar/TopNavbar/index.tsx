@@ -83,7 +83,7 @@ const TopNavbar = () => {
 
   return (
     <nav className="sticky top-0 z-20">
-      <div className={`max-w-frame mx-auto bg-white items-center py-5 md:py-2 transition-transform duration-300 shadow-sm px-6 xl:px-12 ${showHeader ? "translate-y-0" : "-translate-y-full"
+      <div className={`max-w-frame mx-auto bg-white items-center py-3 md:py-2 transition-transform duration-300 shadow-sm px-6 xl:px-12 ${showHeader ? "translate-y-0" : "-translate-y-full"
         }`}>
         {/* <header
       className={`bg-white text-black fixed top-0 left-0 w-full z-50 transition-transform duration-300 shadow-sm  py-5 md:py-6 px-6 xl:px-12 ${
@@ -94,7 +94,7 @@ const TopNavbar = () => {
         <div className="flex md:hidden items-center justify-between w-full ">
           <div className="flex items-center gap-2">
                       {/* Left: Hamburger Menu */}
-          <div className="flex items-center shrink-0 min-w-[80px]">
+          <div className="flex items-center shrink-0">
             <ResTopNavbar data={data} />
           </div>
 
@@ -110,7 +110,7 @@ const TopNavbar = () => {
               <img
                 src="/images/logo.png"
                 alt="AKi Logo"
-                width={110}    
+                width={140}    
                 height={40}
                 className="object-contain h-10 w-auto" 
               />
