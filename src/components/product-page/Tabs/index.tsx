@@ -41,7 +41,7 @@ const Tabs = ({
   return (
     <div>
 
-      <div className="flex items-center mb-6 sm:mb-8 overflow-x-auto">
+      <div className="flex items-center mb-6 sm:mb-8 overflow-x-hidden">
 
         {tabBtnData.map((tab) => (
           <Button
