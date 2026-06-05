@@ -83,7 +83,7 @@ const TopNavbar = () => {
 
   return (
     <nav className="sticky top-0 bg-white z-20">
-      <div className={`max-w-frame mx-auto items-center py-5 md:py-6 transition-transform duration-300 shadow-sm px-6 xl:px-12 ${showHeader ? "translate-y-0" : "-translate-y-full"
+      <div className={`max-w-frame mx-auto items-center py-5 md:py-2 transition-transform duration-300 shadow-sm px-6 xl:px-12 ${showHeader ? "translate-y-0" : "-translate-y-full"
         }`}>
         {/* <header
       className={`bg-white text-black fixed top-0 left-0 w-full z-50 transition-transform duration-300 shadow-sm  py-5 md:py-6 px-6 xl:px-12 ${
@@ -91,32 +91,35 @@ const TopNavbar = () => {
       }`}
     > */}
         {/* ── Mobile layout (below md) ── */}
-        <div className="flex md:hidden items-center justify-between">
-          {/* Left: hamburger */}
-          <div className="flex items-center gap-2 shrink-0">
+        <div className="flex md:hidden items-center justify-between w-full ">
+          <div className="flex items-center gap-2">
+                      {/* Left: Hamburger Menu */}
+          <div className="flex items-center shrink-0 min-w-[80px]">
             <ResTopNavbar data={data} />
           </div>
 
-          {/* Center: logo — absolutely centered so it's always truly centered */}
-          <Link
-            href="/"
-            className={cn([
-              integralCF.className,
-              "absolute left-32 -translate-x-1/2 text-md whitespace-nowrap mb-1",
-            ])}
-          >
-            <div className="flex flex-col justify-center leading-none">
-              <span className="text-lg font-bold tracking-wider text-black-500 font-sans uppercase">
-                AKi
-              </span>
-              <span className="text-[9px] tracking-[0.2em] text-zinc-400 uppercase hidden sm:inline">
-                Trophy & Photography
-              </span>
-            </div>
-          </Link>
+          {/* Center: Logo — Cleaned up wrapper for true centering */}
+          <div className="flex justify-center flex-grow">
+            <Link
+              href="/"
+              className={cn([
+                integralCF.className,
+                "flex items-center justify-center mb-1",
+              ])}
+            >
+              <img
+                src="/images/logo.png"
+                alt="AKi Logo"
+                width={110}    
+                height={40}
+                className="object-contain h-10 w-auto" 
+              />
+            </Link>
+          </div>
+          </div> 
 
           {/* Right: WhatsApp icon + Cart */}
-          <div className="flex items-center gap-2 shrink-0">
+          <div className="flex items-center gap-2 shrink-0 min-w-[80px] justify-end">
             <WhatsAppBtn />
             <CartBtn />
           </div>
@@ -130,12 +133,19 @@ const TopNavbar = () => {
             className={cn([integralCF.className, "text-2xl lg:text-[27px] mb-1 whitespace-nowrap"])}
           >
             <div className="flex flex-col justify-center leading-none">
-              <span className="text-lg font-bold tracking-wider text-black-500 font-sans uppercase">
+              {/* <span className="text-lg font-bold tracking-wider text-black-500 font-sans uppercase">
                 AKi
               </span>
               <span className="text-[9px] tracking-[0.2em] text-zinc-400 uppercase hidden sm:inline">
                 Trophy & Photography
-              </span>
+              </span> */}
+              <img
+                src="/images/logo.png"
+                alt="AKi Logo"
+                width={140} // Adjust width as needed
+                height={40} // Adjust height as needed
+                className="object-contain px-2"
+              />
             </div>
           </Link>
 

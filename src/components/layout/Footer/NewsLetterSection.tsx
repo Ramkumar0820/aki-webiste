@@ -1,49 +1,31 @@
-import { Button } from "@/components/ui/button";
-import InputGroup from "@/components/ui/input-group";
 import { cn } from "@/lib/utils";
 import { integralCF } from "@/styles/fonts";
-import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const NewsLetterSection = () => {
   return (
-    <div className="relative grid grid-cols-1 md:grid-cols-2 py-9 md:py-11 px-6 md:px-16 max-w-frame mx-auto bg-black rounded-[20px]">
+    <div className="relative grid grid-cols-1 md:grid-cols-2 py-9 md:py-11 px-6 md:px-16 max-w-frame mx-auto bg-black rounded-[20px] items-center">
+      {/* Updated Text Content */}
       <p
         className={cn([
           integralCF.className,
-          "font-bold text-[32px] md:text-[40px] text-white mb-9 md:mb-0",
+          "font-bold text-[32px] md:text-[40px] text-white mb-9 md:mb-0 uppercase leading-tight",
         ])}
       >
-        STAY UP TO DATE ABOUT OUR LATEST OFFERS
+        Have Questions? Get in Touch with Us Today
       </p>
-      <div className="flex items-center">
-        <div className="flex flex-col w-full max-w-[349px] mx-auto">
-          <InputGroup className="flex bg-white mb-[14px]">
-            <InputGroup.Text>
-              <Image
-                priority
-                src="/icons/envelope.svg"
-                height={20}
-                width={20}
-                alt="email"
-                className="min-w-5 min-h-5"
-              />
-            </InputGroup.Text>
-            <InputGroup.Input
-              type="email"
-              name="email"
-              placeholder="Enter your email address"
-              className="bg-transparent placeholder:text-black/40 placeholder:text-sm sm:placeholder:text-base"
-            />
-          </InputGroup>
-          <Button
-            variant="secondary"
-            className="text-sm sm:text-base font-medium bg-white h-12 rounded-full px-4 py-3"
-            aria-label="Subscribe to Newsletter"
-            type="button"
+      
+      <div className="flex items-center justify-center md:justify-end">
+        <div className="w-full max-w-[349px]">
+          {/* Next.js Link styled as a secondary pill button */}
+          <Link
+            href="/contact"
+            className="flex items-center justify-center text-sm sm:text-base font-medium text-black bg-white h-12 rounded-full px-4 py-3 w-full hover:bg-neutral-100 transition-colors text-center"
+            aria-label="Contact Us"
           >
-            Subscribe to Newsletter
-          </Button>
+            Contact Us
+          </Link>
         </div>
       </div>
     </div>

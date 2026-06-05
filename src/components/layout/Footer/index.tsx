@@ -74,14 +74,21 @@ const Footer = () => {
                   "text-[24px] lg:text-[27px] mb-6",
                 ])}
               >
-                <div className="flex flex-col justify-center leading-none">
+                {/* <div className="flex flex-col justify-center leading-none">
                   <span className="text-lg font-bold tracking-wider text-black-500 font-sans uppercase">
                     AKi
                   </span>
                   <span className="text-[9px] tracking-[0.2em] text-zinc-400 uppercase hidden sm:inline">
                     Trophy & Photography
                   </span>
-                </div>
+                </div> */}
+                <img
+                  src="/images/logo.png"
+                  alt="AKi Logo"
+                  width={140} // Adjust width as needed
+                  height={40} // Adjust height as needed
+                  className="object-contain px-2"
+                />
               </h1>
               <p className="text-black/60 text-sm mb-9">
                 We craft elite recognition awards and capture timeless imagery that 
