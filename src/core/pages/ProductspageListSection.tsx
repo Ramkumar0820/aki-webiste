@@ -218,7 +218,7 @@ const scrollToSection = (
                   {type} Collection
                 </h1>
 
-                <MobileFilters />
+                {/* <MobileFilters /> */}
 
               </div>
 
@@ -290,7 +290,7 @@ const scrollToSection = (
                     {category}
                   </h2>
 
-                  <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-5">
+                  <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 xl:gap-9">
 
                     {groupedProducts[
                       category

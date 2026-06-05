@@ -82,8 +82,8 @@ const TopNavbar = () => {
   }, [lastScrollY]);
 
   return (
-    <nav className="sticky top-0 bg-white z-20">
-      <div className={`max-w-frame mx-auto items-center py-5 md:py-2 transition-transform duration-300 shadow-sm px-6 xl:px-12 ${showHeader ? "translate-y-0" : "-translate-y-full"
+    <nav className="sticky top-0 z-20">
+      <div className={`max-w-frame mx-auto bg-white items-center py-5 md:py-2 transition-transform duration-300 shadow-sm px-6 xl:px-12 ${showHeader ? "translate-y-0" : "-translate-y-full"
         }`}>
         {/* <header
       className={`bg-white text-black fixed top-0 left-0 w-full z-50 transition-transform duration-300 shadow-sm  py-5 md:py-6 px-6 xl:px-12 ${
