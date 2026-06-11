@@ -418,6 +418,8 @@ export const productsData = [
   rating: 4.7,
   mainCategory: "trophy",
   subCategory: "sports",
+  specifications: [],
+  faqs: []
 },
 
 {
@@ -430,6 +432,8 @@ export const productsData = [
   rating: 4.8,
   mainCategory: "trophy",
   subCategory: "sports",
+  specifications: [],
+  faqs: []
 },
 
 {
@@ -442,6 +446,8 @@ export const productsData = [
   rating: 4.8,
   mainCategory: "trophy",
   subCategory: "metal",
+  specifications: [],
+  faqs: []
 },
 
 {
@@ -454,6 +460,8 @@ export const productsData = [
   rating: 4.8,
   mainCategory: "trophy",
   subCategory: "metal",
+  specifications: [],
+  faqs: []
 },
 
 {
@@ -466,6 +474,8 @@ export const productsData = [
   rating: 4.8,
   mainCategory: "trophy",
   subCategory: "corporate",
+  specifications: [],
+  faqs: []
 },
 
 {
@@ -478,6 +488,8 @@ export const productsData = [
   rating: 4.8,
   mainCategory: "trophy",
   subCategory: "corporate",
+  specifications: [],
+  faqs: []
 },
 
 {
@@ -490,6 +502,8 @@ export const productsData = [
   rating: 4.9,
   mainCategory: "trophy",
   subCategory: "premium",
+  specifications: [],
+  faqs: []
 },
 
 {
@@ -502,6 +516,8 @@ export const productsData = [
   rating: 4.9,
   mainCategory: "trophy",
   subCategory: "premium",
+  specifications: [],
+  faqs: []
 },
 
 {
@@ -514,6 +530,8 @@ export const productsData = [
   rating: 4.9,
   mainCategory: "trophy",
   subCategory: "premium",
+  specifications: [],
+  faqs: []
 },
 
 {
@@ -526,6 +544,8 @@ export const productsData = [
   rating: 4.7,
   mainCategory: "trophy",
   subCategory: "wooden",
+  specifications: [],
+  faqs: [],
 },
 
 {
@@ -538,6 +558,8 @@ export const productsData = [
   rating: 4.7,
   mainCategory: "trophy",
   subCategory: "wooden",
+  specifications: [],
+  faqs: [],
 },
 
 {
@@ -550,6 +572,8 @@ export const productsData = [
   rating: 4.8,
   mainCategory: "trophy",
   subCategory: "wooden",
+  specifications: [],
+  faqs: [],
 },
 
 {
@@ -562,6 +586,8 @@ export const productsData = [
   rating: 4.8,
   mainCategory: "trophy",
   subCategory: "wooden",
+  specifications: [],
+  faqs: [],
 },
 
 {
@@ -574,6 +600,8 @@ export const productsData = [
   rating: 4.8,
   mainCategory: "trophy",
   subCategory: "wooden",
+  specifications: [],
+  faqs: [],
 },
 
 {
@@ -586,6 +614,8 @@ export const productsData = [
   rating: 4.8,
   mainCategory: "trophy",
   subCategory: "sports",
+  specifications: [],
+  faqs: [],
 },
 
 {
@@ -610,6 +640,8 @@ export const productsData = [
   rating: 4.9,
   mainCategory: "trophy",
   subCategory: "sports",
+  specifications: [],
+  faqs: [],
 },
 
 {
@@ -622,6 +654,8 @@ export const productsData = [
   rating: 5,
   mainCategory: "trophy",
   subCategory: "premium",
+  specifications: [],
+  faqs: [],
 },
 
 {
@@ -634,6 +668,8 @@ export const productsData = [
   rating: 5,
   mainCategory: "trophy",
   subCategory: "premium",
+  specifications: [],
+  faqs: [],
 },
 
 {
@@ -646,6 +682,8 @@ export const productsData = [
   rating: 5,
   mainCategory: "trophy",
   subCategory: "premium",
+  specifications: [],
+  faqs: [],
 },
 
 
@@ -1225,6 +1263,8 @@ export const woodenTrophyData = [
   rating: 4.9,
   mainCategory: "gifts",
   subCategory: "led-lamps",
+  specifications: [],
+  faqs: [],
   },
 
   {
@@ -1238,6 +1278,8 @@ export const woodenTrophyData = [
     rating: 4.8,
     mainCategory: "gifts",
     subCategory: "led-lamps",
+    specifications: [],
+    faqs: [],
   },
 
   {
@@ -1251,6 +1293,8 @@ export const woodenTrophyData = [
     rating: 4.8,
     mainCategory: "gifts",
     subCategory: "led-lamps",
+    specifications: [],
+    faqs: [],
   },
 
   {
@@ -1264,6 +1308,8 @@ export const woodenTrophyData = [
     rating: 4.9,
     mainCategory: "gifts",
     subCategory: "led-lamps",
+    specifications: [],
+    faqs: [],
   },
 
   {
@@ -1277,6 +1323,8 @@ export const woodenTrophyData = [
     rating: 4.7,
     mainCategory: "gifts",
     subCategory: "wallets",
+    specifications: [],
+    faqs: []
   },
 
   {
@@ -1290,6 +1338,8 @@ export const woodenTrophyData = [
     rating: 4.9,
     mainCategory: "gifts",
     subCategory: "name-lamps",
+    specifications: [],
+    faqs: []
   },
 ];
 
@@ -1402,6 +1452,45 @@ export const giftData = [
 
 export const photographyData = [
   {
+    id: 400,
+    title: "Pre-Wedding",
+    srcUrl: "/images/photography/IMG_7956.JPG.jpeg",
+    gallery: [
+      // Newly added photos from the zip file:
+      "/images/photography/IMG_7956.JPG.jpeg",
+      "/images/photography/IMG_7973.JPG.jpeg",
+      "/images/photography/IMG_7982.JPG.jpeg",
+      "/images/photography/IMG_8001.JPG.jpeg",
+      "/images/photography/IMG_8020.JPG.jpeg"
+    ],
+    description:
+      "Capturing raw emotions, intimate glances, and your unique love story through cinematic outdoor and indoor pre-wedding sessions tailored to your style.",
+    price: 15000,
+    rating: 4.9,
+    mainCategory: "photography",
+    subCategory: "portrait",
+    specifications: [
+      {
+        label: "Session Duration",
+        value: "4 to 6 Hours",
+      },
+      {
+        label: "Deliverables",
+        value: "50+ Fully Edited High-Res Images & 1 Teaser Video",
+      },
+      {
+        label: "Location",
+        value: "Outdoor Scenic Spots or Specialized Studio Sets",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do you provide outfits and makeup artists?",
+        answer: "We offer styling consultation guides, but outfits and professional makeup artists can be added as an optional premium add-on.",
+      },
+    ],
+  },
+  {
     id: 401,
     title: "Pre-Wedding & Couple Portraiture",
     srcUrl: "/images/photography/ph-1.jpg",
@@ -1507,7 +1596,7 @@ export const photographyData = [
 ];
 export const framesData = [
   {
-    id: 401,
+    id: 801,
     title: "Frame 1",
     srcUrl: "/images/frames/frame1.jpeg",
     gallery: ["/images/frames/frame1.jpeg"],
@@ -1516,9 +1605,24 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 402,
+    id: 802,
+    title: "Multipack Frames",
+    srcUrl: "/images/frames/frame001.jpeg",
+    gallery: ["/images/frames/frame001.jpeg"],
+    description: "Premium customized photo frame.",
+    price: 499,
+    rating: 4.8,
+    mainCategory: "frames",
+    subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
+  },
+  {
+    id: 803,
     title: "Frame 2",
     srcUrl: "/images/frames/frame2.jpeg",
     gallery: ["/images/frames/frame2.jpeg"],
@@ -1527,9 +1631,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 403,
+    id: 804,
     title: "Frame 3",
     srcUrl: "/images/frames/frame3.jpeg",
     gallery: ["/images/frames/frame3.jpeg"],
@@ -1538,9 +1644,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 404,
+    id: 805,
     title: "Frame 4",
     srcUrl: "/images/frames/frame4.jpeg",
     gallery: ["/images/frames/frame4.jpeg"],
@@ -1549,9 +1657,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 405,
+    id: 806,
     title: "Frame 5",
     srcUrl: "/images/frames/frame5.jpeg",
     gallery: ["/images/frames/frame5.jpeg"],
@@ -1560,9 +1670,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 406,
+    id: 807,
     title: "Frame 6",
     srcUrl: "/images/frames/frame6.jpeg",
     gallery: ["/images/frames/frame6.jpeg"],
@@ -1571,9 +1683,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 407,
+    id: 808,
     title: "Frame 7",
     srcUrl: "/images/frames/frame7.jpeg",
     gallery: ["/images/frames/frame7.jpeg"],
@@ -1582,9 +1696,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 408,
+    id: 809,
     title: "Frame 8",
     srcUrl: "/images/frames/frame8.jpeg",
     gallery: ["/images/frames/frame8.jpeg"],
@@ -1595,7 +1711,7 @@ export const framesData = [
     subCategory: "photo-frames",
   },
   {
-    id: 409,
+    id: 810,
     title: "Frame 9",
     srcUrl: "/images/frames/frame9.jpeg",
     gallery: ["/images/frames/frame9.jpeg"],
@@ -1604,9 +1720,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 410,
+    id: 811,
     title: "Frame 10",
     srcUrl: "/images/frames/frame10.jpeg",
     gallery: ["/images/frames/frame10.jpeg"],
@@ -1615,9 +1733,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 411,
+    id: 812,
     title: "Frame 11",
     srcUrl: "/images/frames/frame11.jpeg",
     gallery: ["/images/frames/frame11.jpeg"],
@@ -1626,9 +1746,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 412,
+    id: 813,
     title: "Frame 12",
     srcUrl: "/images/frames/frame12.jpeg",
     gallery: ["/images/frames/frame12.jpeg"],
@@ -1637,9 +1759,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 413,
+    id: 814,
     title: "Frame 13",
     srcUrl: "/images/frames/frame13.jpeg",
     gallery: ["/images/frames/frame13.jpeg"],
@@ -1648,9 +1772,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 414,
+    id: 815,
     title: "Frame 14",
     srcUrl: "/images/frames/frame14.jpeg",
     gallery: ["/images/frames/frame14.jpeg"],
@@ -1659,9 +1785,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 415,
+    id: 816,
     title: "Frame 15",
     srcUrl: "/images/frames/frame15.jpeg",
     gallery: ["/images/frames/frame15.jpeg"],
@@ -1670,9 +1798,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 416,
+    id: 817,
     title: "Frame 16",
     srcUrl: "/images/frames/frame16.jpeg",
     gallery: ["/images/frames/frame16.jpeg"],
@@ -1681,9 +1811,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 417,
+    id: 818,
     title: "Frame 17",
     srcUrl: "/images/frames/frame17.jpeg",
     gallery: ["/images/frames/frame17.jpeg"],
@@ -1692,9 +1824,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 418,
+    id: 820,
     title: "Frame 18",
     srcUrl: "/images/frames/frame18.jpeg",
     gallery: ["/images/frames/frame18.jpeg"],
@@ -1703,9 +1837,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 419,
+    id: 821,
     title: "Frame 19",
     srcUrl: "/images/frames/frame19.jpeg",
     gallery: ["/images/frames/frame19.jpeg"],
@@ -1714,9 +1850,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 420,
+    id: 822,
     title: "Frame 20",
     srcUrl: "/images/frames/frame20.jpeg",
     gallery: ["/images/frames/frame20.jpeg"],
@@ -1725,9 +1863,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 421,
+    id: 823,
     title: "Frame 21",
     srcUrl: "/images/frames/frame21.jpeg",
     gallery: ["/images/frames/frame21.jpeg"],
@@ -1736,9 +1876,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 422,
+    id: 824,
     title: "Frame 22",
     srcUrl: "/images/frames/frame22.jpeg",
     gallery: ["/images/frames/frame22.jpeg"],
@@ -1747,6 +1889,8 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
     id: 423,
@@ -1758,9 +1902,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 424,
+    id: 825,
     title: "Frame 24",
     srcUrl: "/images/frames/frame24.jpeg",
     gallery: ["/images/frames/frame24.jpeg"],
@@ -1769,9 +1915,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 425,
+    id: 826,
     title: "Frame 25",
     srcUrl: "/images/frames/frame25.jpeg",
     gallery: ["/images/frames/frame25.jpeg"],
@@ -1780,9 +1928,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 426,
+    id: 827,
     title: "Frame 26",
     srcUrl: "/images/frames/frame26.jpeg",
     gallery: ["/images/frames/frame26.jpeg"],
@@ -1791,9 +1941,11 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
   {
-    id: 427,
+    id: 828,
     title: "Frame 27",
     srcUrl: "/images/frames/frame27.jpeg",
     gallery: ["/images/frames/frame27.jpeg"],
@@ -1802,6 +1954,8 @@ export const framesData = [
     rating: 4.8,
     mainCategory: "frames",
     subCategory: "photo-frames",
+    specifications: [],
+    faqs: []
   },
 ];
 export const allProducts = [
